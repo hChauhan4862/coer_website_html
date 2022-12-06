@@ -1,0 +1,360 @@
+.iar-currentOpenDetails {
+    padding: 80px 0;
+}
+
+.iar-currentOpenDetails .career-item {
+    padding: 40px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 0 30px #eee;
+    /* height: 100%; */
+    position: relative;
+    cursor: pointer;
+}
+
+/* .iar-currentOpenDetails .career-yellow-col .career-item {
+    background: #f4bf00;
+    border: 1px solid #f4bf00;
+} */
+
+.iar-currentOpenDetails .career-yellow-col .career-item {
+    background: #f4bf00;
+    border: 1px solid #f4bf00;
+    padding: 80px 25px 30px;
+    text-align: center;
+}
+
+.iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+    padding: 0;
+    margin: 0;
+}
+
+.iar-currentOpenDetails .career-item .careers-images .careers-icon {
+    padding-bottom: 20px;
+}
+
+.iar-currentOpenDetails .career-item .careers-images .careers-text .careers-title .title {
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #171f32;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.iar-currentOpenDetails .career-item .careers-images .careers-text .text {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #363636;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.iar-currentOpenDetails .applyNow {
+    margin-top: 15px;
+}
+
+.iar-currentOpenDetails .applyNow .applyNowBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 3px;
+    color: var(--primary-white);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-blue);
+    padding: 18px 40px 18px 40px;
+    font-family: "proxima_novabold";
+}
+
+.iar-currentOpenDetails .applyNow .applyNowBtn:hover {
+    background-color: var(--primary-yellow);
+    color: var(--primary-white);
+}
+
+.iar-currentOpenDetails .career-item:hover .applyNow .applyNowBtn {
+    background-color: var(--primary-yellow);
+    color: var(--primary-white);
+}
+
+.iar-currentOpenDetails .career-yellow-col .applyNow .applyNowBtn:hover {
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+}
+
+.iar-currentOpenDetails .career-yellow-col .career-item:hover .applyNow .applyNowBtn {
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+}
+
+.iar-currentOpenDetails .career-item .careers-images .careers-icon svg {
+    width: 58px;
+    height: 58px;
+}
+
+#careerApplyModal .modal-dialog .modal-content .modal-header {
+    background: #1c335f;
+    color: #fff;
+}
+
+#careerApplyModal {}
+
+#careerApplyModal .modal-dialog {}
+
+#careerApplyModal .modal-dialog .modal-content {}
+
+#careerApplyModal .modal-dialog .modal-content .modal-header .modal-title {
+    color: #fff;
+    font-family: "proxima_novabold";
+}
+
+#careerApplyModal .modal-dialog .modal-content .modal-header .btn-close {
+    color: #fff;
+    filter: invert(1);
+    opacity: 1;
+}
+
+#careerApplyModal .modal-dialog .modal-content .modal-footer {
+    justify-content: center;
+}
+
+.applySubmitBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 3px;
+    color: var(--primary-white) !important;
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-blue) !important;
+    padding: 15px 30px 15px 30px;
+    font-family: "proxima_novabold";
+}
+
+.applySubmitBtn:hover {
+    background-color: var(--primary-yellow) !important;
+    color: var(--primary-white) !important;
+    border-color: var(--primary-yellow) !important;
+}
+
+.currentOpeningInfo-box .title-inner {}
+
+.currentOpeningInfo-box h2 {
+    font-size: 32px;
+    color: #212529;
+    position: relative;
+    margin-bottom: 22px;
+    font-family: "proxima_novabold";
+}
+
+.currentOpeningInfo-box .title-inner .title {
+    font-size: 32px;
+    color: #212529;
+    position: relative;
+    margin-bottom: 22px;
+    font-family: "proxima_novabold";
+}
+
+.currentOpeningInfo-col {
+    padding-left: 30px;
+}
+
+.currentOpeningInfo-box p {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 0 0 20px;
+    color: #101010;
+}
+
+.currentOpeningInfo-box ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.currentOpeningInfo-box ul li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.currentOpeningInfo-box ul li:before {
+    content: "";
+    position: absolute;
+    background: #f4bf00;
+    left: 0;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.currentOpeningInfo-box .text {}
+
+.currentOpeningInfo-box .text .label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.currentOpeningInfo-box .text .des {
+    display: block;
+}
+
+.currentOpeningInfo-box ul.applyInfo {}
+
+.currentOpeningInfo-box ul.applyInfo li:before {
+    display: none;
+}
+
+.currentOpeningInfo-box ul.applyInfo li {
+    padding: 0;
+}
+
+.currentOpeningInfo-box .text .des {
+    display: block;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #07294d;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.currentOpeningInfo-box .text .des a {
+    color: #07294d;
+}
+
+.currentOpeningInfo-box ul.applyInfo li {
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #07294d;
+    font-weight: 600;
+}
+
+.currentOpeningInfo-box ul.applyInfo li i {
+    margin-right: 5px;
+}
+
+.currentOpeningInfo-box ul.applyInfo li a {
+    color: #07294d;
+}
+
+.currentOpeningInfo-box .text .des i {
+    color: #f4bf00;
+}
+
+/* Start Responsive CSS */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+        padding: 0;
+    }
+
+    .iar-currentOpenDetails .career-item .careers-images .careers-text .careers-title .title {
+        font-size: 1.2em;
+    }
+
+    #careerApplyModal .modal-dialog {
+        width: 100%;
+        max-width: calc(100% - 10rem);
+    }
+
+    .currentOpeningInfo-col {
+        padding-left: 15px;
+    }
+
+    .currentOpeningInfo-box .text .label {
+        font-size: 15px;
+    }
+
+    .currentOpeningInfo-box .text .des a,
+    .currentOpeningInfo-box .text .des,
+    .currentOpeningInfo-box ul.applyInfo li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .iar-currentOpenDetails .career-yellow-col .career-item {
+        padding: 30px;
+    }
+
+    .currentOpeningInfo-col {
+        padding: 0 12px;
+    }
+
+    .currentOpeningInfo-box .currentOpeningInfo-box-row {
+        row-gap: 10px;
+    }
+
+    .iar-currentOpenDetails .career-yellow-col .career-item {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+        padding: 0;
+    }
+
+    .iar-currentOpenDetails .career-yellow-col .career-item {
+        margin-bottom: 25px;
+    }
+
+    .iar-currentOpenDetails .career-item .careers-images .careers-text .careers-title .title {
+        font-size: 1.4em;
+    }
+
+    #careerApplyModal .modal-dialog {
+        width: 100%;
+        max-width: calc(100% - 4rem);
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+        padding: 0;
+    }
+
+    #careerApplyModal .modal-dialog {
+        width: 100%;
+        max-width: calc(100% - 1rem);
+    }
+
+    .iar-currentOpenDetails {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .iar-currentOpenDetails {
+        padding: 50px 0;
+    }
+
+    .iar-currentOpenDetails .career-yellow-col .career-item .careers-images {
+        padding: 0;
+    }
+
+    #careerApplyModal .modal-dialog {
+        width: 100%;
+        max-width: calc(100% - 1rem);
+    }
+
+    .iar-currentOpenDetails .applyNow .applyNowBtn {
+        padding: 16px 30px 16px 30px;
+    }
+}

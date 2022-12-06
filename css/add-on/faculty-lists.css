@@ -1,0 +1,571 @@
+.faculty-list {
+  padding: 80px 0;
+}
+
+.faculty-list .faculty-profile-row {
+  justify-content: space-between;
+  gap: 20px;
+  row-gap: 30px;
+}
+
+.faculty-list .faculty-profile-row .faculty-profile-col {
+  width: 31%;
+  /* display: flex; */
+  padding: 0 15px;
+}
+
+.faculty-list .faculty-profile-row .faculty-profile-col .user-item {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: var(--primary-blue);
+  color: var(--primary-white);
+  display: flex;
+  align-items: center;
+  padding: 15px 10px 15px 70px;
+  position: relative;
+  height: 100%;
+  min-height: 135px;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item {
+  background: var(--primary-yellow);
+  color: var(--primary-blue);
+}
+
+.faculty-list .faculty-profile-row .faculty-profile-col .user-item .user-image {
+  max-width: 110px;
+  max-height: 110px;
+  overflow: hidden;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: 5px solid var(--primary-blue);
+  position: absolute;
+  left: -50px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .user-image {
+  border: 5px solid var(--primary-yellow);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-image
+  img {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .links-float {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  margin: 0;
+}
+
+.faculty-list .faculty-profile-row .faculty-profile-col .user-item .meta-part {
+  padding: 0;
+  position: relative;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  i {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .meta-part
+  li
+  i {
+  color: var(--primary-blue);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  > a {
+  pointer-events: none;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li:hover
+  span {
+  visibility: visible;
+  opacity: 1;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  span
+  a {
+  color: var(--primary-white);
+  font-size: 14px;
+  font-family: "proxima_novabold";
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .meta-part
+  li
+  span
+  a {
+  color: var(--primary-blue);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  span {
+  padding: 5px 8px;
+  background: var(--primary-blue);
+  position: absolute;
+  bottom: -44px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  right: 0;
+  text-decoration: underline;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linera;
+  -moz-transition: 0.3s all linera;
+  -ms-transition: 0.3s all linera;
+  -o-transition: 0.3s all linera;
+  min-width: 130px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .meta-part
+  li
+  span {
+  background: var(--primary-yellow);
+}
+
+.faculty-list .faculty-profile-row {
+  padding-top: 45px;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  span:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--primary-blue);
+  top: -8px;
+  z-index: 2;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .meta-part
+  li
+  span:after {
+  border-bottom: 10px solid var(--primary-yellow);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  span.phone:after {
+  right: 24%;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .meta-part
+  li
+  span.email:after {
+  right: 5%;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  p {
+  color: var(--primary-white);
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  p:last-child {
+  margin-bottom: 0;
+}
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  .user-department {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 55px;
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .user-info
+  p {
+  color: var(--primary-blue);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  a {
+  cursor: pointer;
+}
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  a:hover {
+  color: var(--primary-yellow);
+}
+
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col:nth-child(3n + 2)
+  .user-item
+  .user-info
+  a:hover {
+  color: var(--primary-white);
+}
+.faculty-list
+  .faculty-profile-row
+  .faculty-profile-col
+  .user-item
+  .user-info
+  .user-name {
+  font-size: 18px;
+  font-family: "proxima_novabold";
+  transition: all 0.3s;
+}
+
+.faculty-list .faculty-profile-row .faculty-profile-col .user-item .user-info {
+  margin-bottom: 10px;
+}
+
+/* resposnoive for facult list */
+
+@media only screen and (max-width: 1399.98px) and (min-width: 1200px) {
+  .faculty-list .faculty-profile-row {
+    padding: 0 0 0 45px;
+  }
+
+  .faculty-list .faculty-profile-row .faculty-profile-col .user-item {
+    padding: 15px 10px 15px 80px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-image {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    i {
+    font-size: 16px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-info {
+    margin-bottom: 0;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    span.phone:after {
+    right: 24%;
+  }
+}
+.faculty-list .faculty-profile-row .faculty-profile-col .faculty-profile-wrap {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1199.98px) and (min-width: 992px) {
+  .faculty-list .faculty-profile-row {
+    padding: 45px 15px 0 55px;
+  }
+}
+
+@media only screen and (max-width: 1199.98px) and (min-width: 768px) {
+  .faculty-list .faculty-profile-row .faculty-profile-col {
+    width: 42%;
+  }
+
+  .faculty-list .faculty-profile-row {
+    justify-content: space-evenly;
+    gap: 0;
+    row-gap: 30px;
+    margin: 0;
+    /* padding: 54px; */
+  }
+}
+
+@media only screen and (max-width: 991.98px) and (min-width: 768px) {
+  .faculty-list {
+    max-width: 100%;
+  }
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    span
+    a {
+    font-size: 12px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    span.phone:after {
+    right: 24%;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-image {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .faculty-list .faculty-profile-row .faculty-profile-col .user-item {
+    padding: 15px 10px 15px 60px;
+    /* display: block; */
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    i {
+    font-size: 15px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-info {
+    margin-bottom: 20px;
+  }
+
+  .faculty-list {
+    padding: 50px 0;
+  }
+
+  .faculty-list .faculty-profile-row {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-info
+    .user-department {
+    min-height: auto;
+  }
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    > a {
+    pointer-events: inherit;
+  }
+
+  .faculty-list .faculty-profile-row .faculty-profile-col {
+    width: 100%;
+    display: block;
+    padding-right: 15px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    span.phone:after {
+    right: 24%;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-image {
+    max-width: 100px;
+    max-height: 100px;
+    top: 0;
+    left: 18px;
+  }
+
+  .faculty-list .faculty-profile-row .faculty-profile-col .user-item {
+    padding: 50px 20px 30px 30px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .meta-part
+    li
+    i {
+    font-size: 15px;
+  }
+
+  .faculty-list
+    .faculty-profile-row
+    .faculty-profile-col
+    .user-item
+    .user-info {
+    margin-top: 15px;
+  }
+
+  .faculty-list .faculty-profile-row {
+    justify-content: center;
+    row-gap: 80px;
+    padding-top: 80px;
+  }
+
+  .faculty-list {
+    padding: 40px 0;
+  }
+}
+
+/* kp 29-12-2021 */
+.faculty-list .faculty-profile-row .faculty-profile-col:nth-child(3n + 2) .user-item .user-info a {
+    color: #000;
+}
+.faculty-list .faculty-profile-row .faculty-profile-col .user-item .user-info a {
+    cursor: pointer;
+    color: #fff;
+}

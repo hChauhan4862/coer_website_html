@@ -1,0 +1,176 @@
+.iar-noticeBoardFilterSearch {
+    padding: 80px 0;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList {}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    transition: all .3s ease-out;
+    border: 1px solid #dddddd;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box:hover{
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+    transition: all .3s ease-out;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoardHoverLink{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part {
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 3px;
+    background: #07294d;
+    display: block;
+}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part span {
+    display: block;
+}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .date {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'proxima_novabold';
+    color: #fff;
+    font-weight: 700;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .monthYear {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'proxima_novaregular';
+    font-weight: 600;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
+    width: calc(100% - 320px);
+    margin: 0 25px;
+}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #222222;
+    font-family: 'proxima_nova_altbold';
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title a {
+    color: #222222;
+    display: block;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #222222;
+    font-family: 'proxima_novaregular';
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link {}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part {}
+
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 0;
+    color: #07294d;
+    text-align: center;
+    transition: all .3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: #f4bf00;
+    padding: 18px 40px 18px 40px;
+    font-family: 'proxima_novabold';
+    min-width: 170px;
+}
+.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn:hover {
+    background-color: #07294d;
+    color: #fff;
+}
+@media only screen and (max-width: 1199px) and (min-width:992px) {
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+        font-size: 20px;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width:768px) {
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+        font-size: 20px;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+        font-size: 18px;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
+        width: 100px;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info{
+        width: calc(100% - 290px);
+        margin: 0 15px;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
+        padding: 15px 30px 15px 30px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box{
+        flex-direction: column;
+        display: block;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
+        width: 100%;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
+        padding: 15px 40px 15px 40px;
+        width: 100%;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 575.98px) {
+
+}

@@ -1,0 +1,18 @@
+.pagenotfound{margin: 50px 0px;
+    height: 100vh;} 
+.pagenotfound .section-inner{text-align:center;}
+.pagenotfound .section-inner h1{color:#1c335f;
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 50px; }
+.pagenotfound .section-inner .intro-text p{
+    font-size:20px;
+    line-height: 30px;}
+@media only screen and (max-width: 767.98px) {
+    .pagenotfound .section-inner h1{font-size: 50px;margin-bottom: 30px;}
+}
+@media only screen and (max-width: 575px) {
+    .pagenotfound .section-inner .intro-text p{font-size: 18px;}
+    .pagenotfound .section-inner h1{font-size: 40px;}
+    .pagenotfound{height: auto;}
+}

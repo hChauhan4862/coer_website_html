@@ -1,0 +1,4287 @@
+/* Start About IAR University Section CSS */
+.iar-aboutUniversity {
+    padding: 80px 0 0;
+}
+
+.iar-aboutContent {
+    background-color: var(--primary-blue);
+    background-image: url(../../images/small_shape.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 75px 60px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: luminosity;
+}
+
+.iar-aboutContent .title-inner .title {
+    font-size: 36px;
+    color: var(--primary-white);
+    font-weight: bold;
+    position: relative;
+    line-height: 40px;
+    margin: 0 0 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-aboutContent .description p {
+    color: var(--primary-white);
+    margin: 0 0 26px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.readMoreBtn .readMore {
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border-radius: 3px;
+    color: var(--primary-blue);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 15px 30px 15px 30px;
+    font-family: 'Lato', sans-serif
+}
+
+.readMoreBtn .readMore:hover {
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+}
+
+.iar-aboutImgYrs .row-iar-img .col-iar-img .img-part img {
+    width: 100%;
+}
+
+.iar-aboutImgYrs>.row:first-child {
+    margin-bottom: 40px;
+}
+
+.iar-aboutImgYrs .counterBox {
+    background-color: var(--primary-blue);
+    background-image: url(../../images/small_shape.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 30px 15px 30px 15px;
+    border-radius: 4px;
+    text-align: center;
+    background-blend-mode: luminosity;
+    height: 100%;
+}
+
+.iar-aboutImgYrs .counterBox .count-text .count-number span {
+    color: var(--primary-yellow);
+    font-size: 42px;
+    /*! font-weight: 700; */
+    line-height: 42px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-aboutImgYrs .counterBox .count-text .title {
+    color: var(--primary-white);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif
+}
+
+/* End About IAR University Section CSS */
+
+/*  Start Three Box Stream Section CSS */
+.iar-streamBox {
+    padding: 80px 0;
+}
+
+.iar-streamBox .iar-streamBox-col {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.iar-streamBox .iar-streamBox-col.streamBoxBg-1 {
+    /* background: -webkit-linear-gradient(rgb(28 51 95 / 0.8), rgb(28 51 95 / 0.8)), url(../../images/education.jpeg);
+      background: linear-gradient(rgb(28 51 95 / 0.8), rgb(28 51 95 / 0.8)), url(../../images/education.jpeg); */
+    background-image: url("../../images/04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iar-streamBox .iar-streamBox-col.streamBoxBg-2 {
+    /* background: -webkit-linear-gradient(rgba(255, 196, 0, 0.616), rgba(255, 196, 0, 0.616)), url(../../images/education.jpeg);
+      background: linear-gradient(rgba(255, 196, 0, 0.616), rgba(255, 196, 0, 0.616)), url(../../images/education.jpeg); */
+    background-image: url("../../images/05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.iar-streamBox .iar-streamBox-col.streamBoxBg-3 {
+    /* background: -webkit-linear-gradient(rgb(28 51 95 / 0.8), rgb(28 51 95 / 0.8)), url(../../images/education.jpeg);
+      background: linear-gradient(rgb(28 51 95 / 0.8), rgb(28 51 95 / 0.8)), url(../../images/education.jpeg); */
+    background-image: url("../../images/06.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block {
+    margin: 0px 0px 0px 0px;
+    padding: 100px 20px 100px 20px;
+    position: relative;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+
+.iar-streamBox .iar-streamBox-col:hover .iar-streamBox-block {
+    transform: scale(1.2);
+    transition: all 500ms ease;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title {
+    margin-top: 12px;
+}
+
+.iar-streamBox .iar-streamBox-col.streamBoxBg-2 .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+    color: #000;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+    color: var(--primary-white);
+    font-size: 28px;
+    /*! font-weight: 900; */
+    line-height: 32px;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.iar-streamBox .iar-streamBox-col:nth-child(2n) .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+    color: #000;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part {
+    text-align: center;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-icons .streams-icon {
+    display: block;
+    width: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+
+}
+
+.iar-streamBox .iar-streamBox-col:hover .iar-streamBox-block .iar-streams-part .iar-streams-icons .streams-icon {
+    animation: headShake 1.3s infinite running;
+}
+
+.iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-icons span i {
+    font-size: 45px;
+    color: var(--primary-white);
+}
+
+.iar-streamBox .iar-streamBox-col.streamBoxBg-2 .iar-streamBox-block .iar-streams-part .iar-streams-icons span i {
+    color: #000;
+}
+
+/* End Three Box Stream Section CSS */
+
+/* Start IAR Courses Section CSS */
+.iar-courses {
+    padding: 80px 0;
+    background-color: #f3f8fb;
+}
+
+.iar-courses>.container>.row {
+    justify-content: center;
+}
+
+.iar-courses .iar-courses-block {
+    position: relative;
+    overflow: hidden;
+}
+
+.iar-courses .iar-courses-block .iar-courses-img {
+    position: relative;
+}
+
+.iar-courses .iar-courses-block .iar-courses-img img {
+    width: 100%;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text,
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text {
+    position: absolute;
+    transform: translate(-50%, -50%) rotateY(90deg);
+    left: 50%;
+    top: 50%;
+    /*! width: 100%; */
+    background: #203359;
+    padding: 30px 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease;
+    text-align: center;
+    /*! height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block:hover:after {
+    display: none;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2,
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-btn-part .courses-btn,
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+    color: var(--primary-white);
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+    font-size: 26px;
+    color: var(--primary-white);
+    font-weight: 700;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-btn-part .courses-btn span {
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-title .title {
+    color: var(--primary-white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-txt {
+    margin-bottom: 15px;
+    color: var(--primary-white);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family:'Lato', sans-serif;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-txt p {
+    color: #fff;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+    margin-bottom: 15px;
+    color: var(--primary-white);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.iar-courses .iar-courses-block .iar-courses-img .iar-courses-title {
+    display: block;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    z-index: 1;
+    transition: all 0.8s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.iar-courses .iar-courses-block .iar-courses-img .iar-courses-title .title {
+    color: var(--primary-white);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-courses-block:after {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(32, 51, 89, 0.8));
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 0.8s ease;
+}
+
+.iar-courses .iar-courses-block:hover .iar-courses-text,
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block:hover .iar-courses-text {
+    background-color: rgba(33, 53, 92, 0.85) !important;
+    /* border-radius: 4px 4px 4px 4px; */
+    /* padding: 36px 30px 50px 30px; */
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) rotateY(0);
+    z-index: 1;
+}
+
+.iar-courses .iar-courses-block:hover .iar-courses-img .iar-courses-title {
+    bottom: -60px;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-btn-part .courses-btn {
+    color: var(--primary-white);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-btn-part .courses-btn span {
+    margin-right: 10px;
+}
+
+.iar-courses .iar-courses-block .iar-courses-text .courses-btn-part .courses-btn:hover,
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-btn-part .courses-btn:hover {
+    color: var(--primary-yellow);
+}
+
+.iar-courses-block:hover:after {
+    display: none;
+}
+
+.iar-coursesContent {
+    background-color: var(--primary-blue);
+    background-image: url(../../images/small_shape.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 16px 25px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: luminosity;
+}
+
+.iar-coursesContent .title-inner .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--primary-white);
+    margin: 0px 0px 25px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-coursesContent .description p {
+    color: var(--primary-white);
+    margin: 0 0 26px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.iar-coursesContent .readMoreBtn .readMore {
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border-radius: 3px;
+    color: var(--primary-blue);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-white);
+    padding: 15px 20px 15px 20px;
+}
+
+.iar-coursesContent .readMoreBtn .readMore:hover {
+    background-color: var(--primary-yellow);
+    color: #000;
+}
+
+/* .iar-courses-col:nth-last-child(-n + 4) {
+    margin-top: 30px;
+} */
+.iar-courses-col:nth-last-child(n - 4) {
+    margin-top: 30px;
+}
+
+/* End IAR Courses Section CSS */
+
+/* Start Image Box Section CSS */
+.iar-3dBox {
+    padding: 80px 0;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block img {
+    width: 100%;
+}
+
+.iar-galleryBox .iar-galleryBox-col:nth-last-child(-n + 3) {
+    margin-top: 30px;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block {
+    position: relative;
+    overflow: hidden;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block::after {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(32, 51, 89, 0.8));
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 0.8s ease;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    transition: all 0.8s ease;
+    width: 100%;
+    color: var(--primary-white);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block:hover .iar-courses-title {
+    bottom: -115%;
+}
+
+.iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2 {
+    color: var(--primary-white);
+    font-size: 30px;
+    color: var(--primary-white);
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+/* End Image Box Section CSS */
+
+/* Start Admission Open Section CSS */
+.iar-admissionOpen {
+    padding: 0;
+}
+
+.iar-admissionOpen .iar-admissionBg-col {
+    padding: 0;
+}
+
+.iar-admissionOpen .iar-admissionBg-col .iar-admissionBg {
+    background-image: url(../../images/17.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+    background-position: center;
+    padding: 180px 0px 200px 0px;
+}
+
+.iar-admissionVideo {
+    position: absolute;
+}
+
+.iar-admissionVideo .icon-area {
+    display: flex;
+    justify-content: center;
+}
+
+.iar-admissionVideo .popup-videos {
+    background-color: var(--primary-white);
+    border-radius: 50%;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 80%;
+    position: relative;
+    animation: circle_ripple 2s linear infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iar-admissionVideo .popup-videos:hover i {
+    color: var(--primary-blue);
+}
+
+.iar-admissionVideo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.iar-admissionVideo .popup-videos i {
+    font-size: 25px;
+    color: var(--primary-yellow);
+}
+
+.iar-admissionOpen .iar-admissionOpenContent-col {
+    padding: 0;
+    background: var(--primary-blue);
+}
+
+.iar-admissionOpenContent {
+    padding: 100px 0px 100px 60px;
+}
+
+.iar-admissionOpenContent .title-inner .title {
+    font-size: 32px;
+    color: var(--primary-white);
+    /*! font-weight: 700; */
+    position: relative;
+    margin-bottom: 22px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-admissionOpenContent .description {
+    width: 80%;
+}
+
+.iar-admissionOpenContent .description p {
+    color: var(--primary-white);
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-admissionOpenContent .applyNow .applyNowBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 3px;
+    color: var(--primary-blue);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 18px 40px 18px 40px;
+    /*! font-weight: 600; */
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-admissionOpenContent .applyNow .applyNowBtn:hover {
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+}
+
+/* End Admission Open Section CSS */
+
+/* Start Latest News, Event, Notice Section CSS */
+.iar-latestNewsEventNotice {
+    padding: 80px 0;
+    background-color: #f4f6f5;
+}
+
+.iar-latestNewsEventNotice .title-inner .slick-controls {
+    display: none;
+}
+
+.iar-latestNewsEventNotice .title-inner {
+    position: relative;
+}
+
+.iar-latestNewsEventNotice .title-inner .title {
+    color: var(--primary-blue);
+    font-size: 30px;
+    line-height: 34px;
+    /*! font-weight: 900; */
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short {
+    border: 1px solid #dfe9eb;
+    margin-bottom: 18px;
+    padding: 8px;
+    overflow: hidden;
+    background: var(--primary-white);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short:hover {
+    background: #172e58;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short:hover .img-part img {
+    transition: all 500ms ease;
+    transform: scale(1.2);
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short .img-part img {
+    transition: all 500ms ease;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short .img-part {
+    background: transparent;
+    transition: all 500ms ease;
+    width: 300px;
+    /* height: 100%; */
+    text-align: center;
+    padding: 0;
+    border-radius: 3px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short .content-part .title {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short .content-part .title a {
+    color: #020101;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.iar-latestNewsEventNotice .news-block .newss-short:hover .title a {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short {
+    border: 1px solid #dfe9eb;
+    margin-bottom: 18px;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--primary-white);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 110px;
+    cursor: pointer;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .date-part {
+    background: transparent;
+    transition: all 500ms ease;
+    min-width: 100px;
+    text-align: center;
+    padding: 11px 0 0px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .date-part .month {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .date-part .year {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .date-part .date {
+    color: var(--primary-blue);
+    font-size: 40px;
+    /*! font-weight: 700; */
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* notices home date start */
+
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part {
+    background: transparent;
+    transition: all 500ms ease;
+    min-width: 100px;
+    text-align: center;
+    padding: 11px 0 0px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part .month {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part .year {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #101010;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part .date {
+    color: var(--primary-blue);
+    font-size: 40px;
+    /*! font-weight: 700; */
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part .date {
+    font-size: 40px;
+    line-height: 23px;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short .date-part {
+    min-width: 80px;
+    padding: 8px 0 11px;
+    margin-right: 4px;
+}
+
+/* notices home date end */
+
+.iar-latestNewsEventNotice .event-block .events-short .content-part .time {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #212529;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .content-part .time i {
+    margin-right: 5px;
+    font-size: 16px;
+    color: var(--primary-blue);
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .content-part .title {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0;
+    /* max-height: 44px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Lato', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #212529;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .content-part .title {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .content-part .title {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .content-part .title a {
+    color: #020101;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .content-part .title a {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover {
+    background: #1c335f;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .date-part .date {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .date-part .month {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .date-part .year {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .content-part .time {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short:hover .content-part .time i {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .content-part .title a {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover {
+    background: #1c335f;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .date-part .date {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .date-part .month {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .date-part .year {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .content-part .time {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .notice-block .notices-short:hover .content-part .time i {
+    color: #fff;
+}
+
+.iar-latestNewsEventNotice .event-block .events-short .content-part {
+    padding: 0 10px;
+}
+
+.notice-block .notices-short {
+    border: 1px solid #dfe9eb;
+    margin-bottom: 18px;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--primary-white);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    cursor: pointer;
+}
+
+.notice-block .notices-short:hover {
+    background: #172e58;
+}
+
+.notice-block .notices-short .content-part .title {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 15px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    color: #212529;
+}
+
+.notice-block .notices-short:hover .content-part .title {
+    color: #fff;
+}
+
+.notice-block .notices-short .content-part .title a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.notice-block .notices-short:hover .content-part .title a {
+    color: #fff;
+}
+
+/* End Latest News, Event, Notice Section CSS */
+
+/* Start Newsletter Section CSS */
+.iar-newsletter {
+    background-color: #172e58;
+    padding: 30px 0;
+    margin: 0 0 40px 0;
+}
+
+.iar-newsletter .sec-title {
+    /* flex: auto; */
+}
+
+.iar-newsletter .sec-title .title-icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+
+.iar-newsletter .sec-title .title-icon img {
+    max-width: 40px;
+    margin-right: 0;
+    max-height: 40px;
+}
+
+.iar-newsletter .sec-title .title-icon .title {
+    font-size: 21px;
+    line-height: 30px;
+    color: var(--primary-white);
+    /*! font-weight: 900; */
+
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-newsletter .sec-title .title-icon.email-title .title {
+    margin: 0 0 0 14px;
+}
+
+.iar-stayConnect-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stayConnect_social {
+    list-style: none;
+    padding: 0;
+    margin: 0 12px 0 0;
+}
+
+.stayConnect_social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.stayConnect_social li a {
+    font-size: 16px;
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    transition: 0.3s all ease-in-out;
+    background: var(--primary-white);
+}
+
+.stayConnect_social li a:hover {
+    background: var(--primary-yellow);
+}
+
+.stayConnect_social li a span i {
+    font-size: 16px;
+    color: #172e58;
+}
+
+.form-newsLetter {
+    width: 300px;
+}
+
+.form-newsLetter form .newsletter-form {
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.form-newsLetter form .newsletter-form input {
+    background: var(--primary-white);
+    width: 80%;
+    color: #363636;
+    padding: 9px 20px;
+    margin-bottom: 0;
+    height: auto;
+    border: none !important;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-newsLetter form .newsletter-form button {
+    background: var(--primary-yellow);
+    padding: 0 20px 0px 20px;
+    color: var(--primary-blue);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    outline: none;
+    border: none;
+    bottom: 0;
+    text-align: center;
+    /*! font-weight: 900; */
+    font-family: 'Lato', sans-serif;
+}
+
+.form-newsLetter form .newsletter-form button:hover {
+    background: #000;
+    color: var(--primary-white);
+}
+
+.iar-newsletter .iar-newsLetter-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 1px solid var(--primary-white);
+}
+
+/* End Newsletter Section CSS */
+
+/* Start Latest Events Slider Section CSS */
+.iar-latestEvents {
+    padding: 40px 0 80px;
+}
+
+.iar-latestEvents .title-inner {
+    text-align: center;
+    margin: 0 0 26px;
+    position: relative;
+}
+
+.iar-latestEvents .viewAll {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.iar-latestEvents .viewAll .viewMore-btn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 3px;
+    color: var(--primary-blue);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 10px 13px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestEvents .viewAll .viewMore-btn:hover {
+    background: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.iar-latestEvents .title-inner .sub-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    display: block;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #172e58;
+}
+
+.iar-latestEvents .title-inner .title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #171f32;
+    margin: 0px 0px 0px 0px;
+    /*! font-weight: 700; */
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short {
+    transition: all 500ms ease;
+    margin: 15px 15px 15px;
+    box-shadow: 0 0 20px #eee;
+    position: relative;
+    margin-bottom: 2px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short:hover .featured-img a img {
+    transform: scale(1.2);
+    /* transform: translateY(-10px); */
+    transition: all 0.3;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .featured-img {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .featured-img:before {
+    content: "";
+    background: linear-gradient(transparent, rgb(39, 60, 102, 0.6)),
+        linear-gradient(transparent, rgb(39, 61, 104, 0.6));
+    opacity: 0.85;
+    height: 100%;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.7s ease 0s;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .featured-img a {}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .featured-img a img {
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .title {
+    color: var(--primary-white);
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    /*! font-weight: 700; */
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .title a {
+    color: var(--primary-white);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    transition: all 0.8s ease;
+    font-family: 'Lato', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short:hover .content-part .title a {
+    color: var(--primary-yellow);
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .event-btm {
+    padding: 9px 0px 8px 0px;
+    border: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .event-btm .date-part {
+    font-size: 13px;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .event-btm .date-part .date {
+    color: var(--primary-white);
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .event-btm .date-part .date i {
+    color: var(--primary-yellow);
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .time {
+    color: var(--primary-white);
+    font-size: 13px;
+}
+
+.iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .time i {
+    color: var(--primary-yellow);
+    font-size: 13px;
+    margin-right: 7px;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots {
+    text-align: center;
+    bottom: -45px !important;
+    z-index: 11;
+    line-height: 10px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots li {
+    display: inline-block;
+    width: unset;
+    height: unset;
+    margin: 0 5px;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots li {
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots li button {
+    width: 25px;
+    height: 8px;
+    display: inline-block;
+    font-size: unset;
+    line-height: unset;
+    padding: unset;
+    border-radius: 50px;
+    background: #ccc;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -webkit-box-shadow: 0 3px 8px 0 rgb(0 0 0 / 25%);
+    -moz-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 25%);
+    opacity: 1;
+    color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots li button::before {
+    display: none;
+}
+
+.iar-latestEvents .latestEvent_slider .slick-dots li.slick-active button {
+    width: 40px;
+    opacity: 1;
+    background: #172e58;
+}
+.banner_slider_img.desktop_view,
+.banner_slider_img.mobile_view {
+    position: relative;
+}
+
+.banner_slider_img.desktop_view:before,
+.banner_slider_img.mobile_view:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+/*     background-color: rgb(0 0 0 / 40%); */
+    z-index: 1;
+}
+.banner_slider_img.desktop_view img {
+    width: 100%;
+    object-fit: cover;
+}
+/* End Latest Events Slider Section CSS */
+
+/* Start Tab Icon Content CSS */
+.iar-tabIconContent {
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+
+.iar-tabIconContent .nav-tabs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 0;
+}
+
+.iar-tabIconContent .nav-tabs li {
+    margin: 0px 0px 0px 22px;
+}
+
+.iar-tabIconContent .nav-tabs li a {
+    padding: 25px 35px 25px 35px;
+    border-radius: 4px 4px 4px 4px !important;
+    justify-content: center;
+    color: var(--primary-white);
+    background-color: #172e58;
+    text-align: center;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 162px;
+}
+
+.iar-tabIconContent .nav-tabs li a.active,
+.iar-tabIconContent .nav-tabs li a:hover {
+    background-color: var(--primary-yellow);
+    color: #000;
+}
+
+.iar-tabIconContent .nav-tabs li a.active img,
+.iar-tabIconContent .nav-tabs li a:hover img {
+    filter: invert(1);
+}
+
+.iar-tabIconContent .nav-tabs li:first-child {
+    margin: 0;
+}
+
+.iar-tabIconContent .nav-tabs li a img {
+    display: block;
+    text-align: center;
+    margin: 0 auto 12px;
+}
+
+.iar-tabIconContent .tab-content {
+    text-align: left;
+    margin-top: 70px;
+    padding: 50px 60px 50px 50px;
+    background: var(--primary-white);
+    overflow: hidden;
+    box-shadow: 0 0 20px #eee;
+}
+
+.iar-tabIconContent .tab-content .tab-pane {}
+
+.iar-tabIconContent .tab-content .tab-pane .iar-tabContent-col {
+    padding: 20px 0px 0px 50px;
+}
+
+.libraryGalleryImg-slider .slick-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.libraryGalleryImg-slider {
+    position: relative;
+}
+
+.libraryGalleryImg-slider .slick-controls .galleryPrevious {
+    left: 0;
+    background: rgb(244 191 0 / 75%);
+    border-radius: 0;
+}
+
+.libraryGalleryImg-slider .slick_slider {
+    margin-bottom: 0;
+}
+
+.libraryGalleryImg-slider .slick-controls i {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.libraryGalleryImg-slider .slick-controls .galleryNext {
+    right: 0;
+    background: rgb(244 191 0 / 75%);
+    border-radius: 0;
+}
+
+.iar-tabIconContent .tab-content .tab-pane:nth-child(2) .iar-tabContent-col {
+    padding: 20px 50px 0px 10px;
+}
+
+.iar-tabIconContent .tab-content .tab-pane .title-inner {}
+
+.iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 26px;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+    color: var(--primary-blue);
+}
+
+.iar-tabIconContent .tab-content .tab-pane .description {}
+
+.iar-tabIconContent .tab-content .tab-pane .description p {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 0 0 26px;
+}
+
+.iar-tabIconContent .tab-content .tab-pane .applyNow {}
+
+.iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #101010;
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 18px 30px 18px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn:hover {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #101010;
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 18px 30px 18px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn:hover {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #101010;
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 18px 30px 18px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn:hover {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+/* End Tab Icon Content CSS */
+
+/* banner slider css */
+.banner_slider_img.mobile_view {
+    display: none;
+}
+
+.slider-banner-iar {
+    position: relative;
+}
+
+.slider-banner-iar .slick-controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.slider-banner-iar .slick-controls button {
+    cursor: pointer;
+    min-width: 70px;
+    min-height: 70px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgb(23 22 22 / 36%);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-banner-iar .slick-controls button:hover {
+    background: rgb(23 22 22 / 86%);
+}
+
+.slider-banner-iar .slick-controls button.next {
+    right: 15px;
+}
+
+.slider-banner-iar .slick-controls button:focus {
+    box-shadow: none;
+}
+
+.slider-banner-iar .slick-controls button span i {
+    font-size: 30px;
+    color: var(--primary-white);
+    line-height: unset;
+}
+
+.slider-banner-iar .slick-controls button.previous {
+    left: 15px;
+}
+
+.slider-banner-iar .slick_slider .single-slide-wrap {
+    position: relative;
+}
+
+.slider-banner-iar .slick_slider .single-slide-wrap .float_slider_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto auto 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    /*  hidden slider content*/
+    visibility: hidden;
+}
+
+.float_slider_banner .slider-content .span-title span {
+    font-size: 19px;
+    line-height: 16px;
+    /* color: orange; */
+    color: white;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.float_slider_banner .slider-content .span-title {
+    margin-bottom: 4px;
+}
+
+.float_slider_banner .slider-content .main-title-iar h2 {
+    font-size: 54px;
+    line-height: 1.1;
+    /* color: var(--primary-blue); */
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.float_slider_banner .slider-content .main-title-iar p {
+    font-size: 18px;
+    line-height: 1.3;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 0;
+    max-width: 80%;
+}
+
+.float_slider_banner .slider-content .btn-iar-banner.slider-btn {
+    margin-top: 30px;
+}
+
+.float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+    /* background: var(--primary-blue);
+    color: var(--primary-white); */
+    background: var(--primary-yellow);
+    color: var(--primary-black);
+    padding: 16px 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.3s;
+}
+
+.float_slider_banner .slider-content .btn-iar-banner.slider-btn a:hover {
+    /* background: var(--primary-yellow);
+    color: var(--primary-black); */
+    background: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+/* Testtimonial csss strat */
+
+/* .iar-testimonial .testimonial-col .testimonial-image-area {} */
+.iar-testimonial {
+    padding: 80px 0;
+}
+
+.iar-testimonial .container>.row {
+    align-items: center;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+    font-size: 25px;
+    padding: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial {
+    padding: 30px 60px 0 0;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .arrow-testimonial-img {
+    margin-bottom: 15px;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .testimonial-content .testimonial-information .testimonial-name {
+    color: var(--primary-blue);
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .testimonial-content .testimonial-information .testimonial-title {
+    color: #7d828a;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.iar-testimonial .testimonial-image-area {
+    position: relative;
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    display: flex;
+}
+
+/* .iar-latestNewsEventNotice .title-inner .slick-controls button span,
+  .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button span,
+  .slider-banner-iar .slick-controls button span {
+      display: flex;
+      align-items: center;
+  } */
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+    cursor: pointer;
+    min-width: 50px;
+    min-height: 50px;
+    position: relative;
+    display: block;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--primary-blue);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0 0;
+    box-shadow: none;
+}
+
+/* 
+  .iar-latestNewsEventNotice .title-inner .slick-controls button:hover {
+      background: var(--primary-yellow);
+  
+  } */
+/* 
+  .iar-latestNewsEventNotice .title-inner .slick-controls button:hover span i {
+      color: var(--primary-black);
+  } */
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button:hover {
+    background: var(--primary-yellow);
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button:hover span i {
+    color: var(--primary-black);
+}
+
+.iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button span i {
+    color: var(--primary-white);
+}
+
+.iar-testimonial .viewAll .viewMore-btn {
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 3px;
+    color: var(--primary-blue);
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    background-color: var(--primary-yellow);
+    padding: 10px 13px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.iar-testimonial .viewAll .viewMore-btn:hover {
+    background: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+/* logo gallery section start */
+.logo-gallery {
+    padding: 0px 0 80px;
+}
+
+.logo-gallery .logo-gallery-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 15px auto;
+}
+
+.iar-newsletter .sec-title .title-icon.email-title {
+    margin-left: 15px;
+}
+
+/* 3d Roate section  */
+/* 3d section */
+.iar-3dBox .iar-3d-item-wrapper {
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .iar-3dBox .iar-3d-item-wrapper:hover .iar-3d-item-inner {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+.iar-3dBox .iar-3d-item-wrapper:hover .iar-3d-item-inner {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.iar-3dBox .iar-3d-item-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.iar-3dBox .iar-3d-header {
+    display: block;
+    font-size: 18px;
+    color: var(--primary-white);
+}
+
+.iar-3dBox .iar-3d-item {
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    padding: 70px 30px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    background-color: var(--primary-blue);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background-clip: border-box;
+    height: 100%;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-item-inner-wrapper {
+    -webkit-transform: translateZ(60px);
+    -moz-transform: translateZ(60px);
+    -ms-transform: translateZ(60px);
+    -o-transform: translateZ(60px);
+    transform: translateZ(60px);
+    display: block;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-item-inner-wrapper .iar-3d-icon {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-item-inner-wrapper .iar-3d-icon img {
+    /*   filter: invert(1); */
+}
+
+.iar-3dBox .iar-3d-item.hasLabel {
+    /*		
+                backface-visibility: hidden;
+                -webkit-backface-visibility: hidden;
+    */
+}
+
+.iar-3dBox .iar-3d-item.hasLabel:after {
+    display: none;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 85px solid #000;
+    border-left: 85px solid transparent;
+    /*
+                    border-top-right-radius: @border-radius;
+    */
+    position: absolute;
+    top: 0;
+    right: 1px;
+    /*
+                    backface-visibility: hidden;
+                    -webkit-backface-visibility: hidden;					
+    */
+}
+
+.iar-3dBox .iar-3d-item.hasLabel.iar-3d-new:after {
+    border-top-color: green;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-label {
+    display: none;
+    position: absolute;
+    top: -74px;
+    right: -28px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 45px;
+    height: 45px;
+    display: block;
+    line-height: 85px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+
+    color: var(--primary-yellow);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-icon i {
+    font-size: 45px;
+    color: #f6520a;
+    color: var(--primary-yellow);
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-header {
+    margin: 6px 0 0 0;
+    font-size: 24px;
+}
+
+.iar-3dBox .iar-3d-item .iar-3d-info {
+    display: block;
+    zoom: 1;
+    filter: alpha(opacity=55);
+    -webkit-opacity: 0.55;
+    -moz-opacity: 0.55;
+    opacity: 0.55;
+    font-size: 14px;
+}
+
+.iar-3dBox .iar-3d-item-front,
+.iar-3dBox .iar-3d-item-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.iar-3dBox .iar-3d-item-back {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-size: cover;
+    color: var(--primary-white);
+}
+
+.iar-3dBox .iar-3d-item-back:hover {
+    color: var(--primary-white);
+}
+
+/* @media (max-width: 768px) {
+      .iar-3d-item-back {
+          display: none;
+      }
+  } */
+
+.iar-3dBox .iar-3d-item-back:before {
+    content: "";
+    background-color: #1d1c1f;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background-clip: border-box;
+    zoom: 1;
+    filter: alpha(opacity=45);
+    -webkit-opacity: 0.45;
+    -moz-opacity: 0.45;
+    opacity: 0.45;
+}
+
+.iar-3dBox .iar-3d-item-back .iar-3d-item-inner-info {
+    /*! top: 50%; */
+    /*! left: 50%; */
+    /*! position: absolute; */
+    width: 90%;
+    /*! -webkit-transform: translateZ(60px) translateX(-50%) translateY(-50%); */
+    /*! -moz-transform: translateZ(60px) translateX(-50%) translateY(-50%); */
+    /*! -ms-transform: translateZ(60px) translateX(-50%) translateY(-50%); */
+    /*! -o-transform: translateZ(60px) translateX(-50%) translateY(-50%); */
+    /*! transform: translateZ(60px) translateX(-50%) translateY(-50%); */
+}
+
+.iar-3dBox .iar-3d-item-back .iar-3d-header {
+    margin: 0 0 15px 0;
+}
+
+.iar-3dBox .iar-3d-item-back .iar-3d-description {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-top: 12px;
+}
+
+.iar-3dBox .iar-3d-item-back .iar-3d-description p {
+    color: #fff;
+}
+
+/* END 3D Roate Section  */
+/* Responsive CSS */
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+    .form-newsLetter form .newsletter-form input {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .custom_navbar .menu_bar .navbar-nav li.nav-item {
+        padding: 0;
+    }
+
+    /* .custom_navbar .menu_bar .navbar-nav li ul.dropdown-menu {
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: scaleY(1);
+        position: relative;
+        width: 100%;
+        min-width: 100%;
+        display: block;
+        border: 0;
+    } */
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .slider-banner-iar .slick-controls button {
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2 {
+        font-size: 26px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+        font-size: 22px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-img .iar-courses-title .title {
+        font-size: 20px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block:hover .iar-courses-text {
+        padding: 19px 8px;
+        width: 100%;
+    }
+
+    .form-newsLetter {
+        width: 250px;
+    }
+
+    .iar-admissionOpenContent .description {
+        width: 80%;
+    }
+
+    .iar-admissionOpenContent {
+        padding: 60px 0 60px 40px;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        width: 100%;
+    }
+
+    .iar-newsletter {
+        margin: 0 0 40px 0;
+    }
+
+    .iar-newsletter .sec-title .title-icon img {
+        max-width: 28px;
+        margin-right: 0;
+        max-height: 28px;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 0 0 8px;
+    }
+
+    .stayConnect_social li a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        padding: 7px 15px;
+    }
+
+    .form-newsLetter form .newsletter-form button {
+        padding: 0 15px;
+    }
+
+    /* float slider banner css max for 992 */
+    .float_slider_banner .slider-content .main-title-iar p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .float_slider_banner .slider-content .main-title-iar h2 {
+        font-size: 45px;
+    }
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+        padding: 10px 13px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    /* iar about responsive  */
+    .iar-aboutContent {
+        padding: 35px 30px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .title {
+        font-size: 18px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .count-number span {
+        font-size: 35px;
+    }
+
+    .readMoreBtn .readMore {
+        padding: 16px Ã¢â‚¬â€¹20px 16px 20p;
+    }
+
+    .iar-streamBox,
+    .iar-courses,
+    .iar-3dBox,
+    .iar-latestNewsEventNotice,
+    .iar-latestEvents,
+    .iar-tabIconContent,
+    .iar-testimonial,
+    .logo-gallery {
+        padding: 50px 0;
+    }
+
+    .iar-aboutUniversity {
+        padding: 50px 0 0;
+    }
+
+    .iar-admissionOpen {
+        padding: 50px 0 0;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 40px;
+    }
+
+    .iar-coursesContent {
+        padding: 16px 25px;
+    }
+
+    .iar-coursesContent .title-inner .title {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0px 0px 18px 0px;
+    }
+
+    /* new event notice */
+
+    .iar-latestNewsEventNotice .event-block .events-short .date-part .date {
+        font-size: 40px;
+        line-height: 23px;
+    }
+
+    .iar-latestNewsEventNotice .event-block .events-short .date-part {
+        min-width: 80px;
+        padding: 8px 0 11px;
+        margin-right: 4px;
+    }
+
+    .notice-block .notices-short .content-part .title {
+        padding: 15px 9px;
+    }
+
+    /* inovation event */
+    .iar-latestEvents .latestEvent_slider .slick-dots {
+        bottom: -40px !important;
+    }
+
+    /* tabs */
+    .iar-tabIconContent .tab-content {
+        margin-top: 40px;
+        padding: 40px;
+    }
+
+    /* testimonial css */
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+        font-size: 20px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    /* footer  */
+    .show-featured .post-img {
+        max-width: 80px;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .iar-latestNewsEventNotice .desktopView .view-more-btn-area {
+        /* 		text-align: center;
+          margin: 20px auto; */
+    }
+
+    .iar-latestNewsEventNotice .desktopView .view-more-btn {
+        /* 		display: inline-block; */
+        /* 		background-color: transparent; */
+    }
+
+    .iar-latestNewsEventNotice .desktopView .view-more-btn:hover {
+        /* 		background-color: #1c335f; */
+    }
+}
+
+@media only screen and (max-width: 991.98px) {}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text {
+        padding: 19px 8px;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon.email-title {
+        margin-left: 0;
+    }
+
+    .iar-admissionOpenContent .description {
+        width: 80%;
+    }
+
+    .float_slider_banner .slider-content .span-title span {
+        font-size: 14px;
+    }
+
+    .slider-banner-iar .slick-controls button {
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+    .slider-banner-iar .slick-controls button span i {
+        font-size: 25px;
+        /* line-height: unset; */
+    }
+
+    .iar-newsletter {
+        margin: 0 0 40px 0;
+    }
+
+    .iar-newsletter .sec-title .title-icon img {
+        max-width: 28px;
+        margin-right: 0;
+        max-height: 28px;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .stayConnect_social li a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .iar-stayConnect-col {}
+
+    .iar-newsletter .iar-newsLetter-col,
+    .iar-stayConnect-col {
+        flex-direction: column;
+    }
+
+    .form-newsLetter {
+        flex: auto;
+        width: 100%;
+        margin-top: 15px;
+        max-width: 93%;
+    }
+
+    .iar-newsletter .sec-title {
+        flex: 0;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-stayConnect-col {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stayConnect_social {
+        margin: 15px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    /* float slider banner css max for 768 */
+    .float_slider_banner .slider-content .main-title-iar p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .float_slider_banner .slider-content .main-title-iar h2 {
+        font-size: 36px;
+    }
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+        padding: 10px 13px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    /* iar about responsive  */
+    .iar-aboutContent {
+        padding: 45px 30px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .title {
+        font-size: 18px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .count-number span {
+        font-size: 35px;
+    }
+
+    .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .col-iar-stuinfo:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .iar-aboutImgYrs .counterBox {
+        padding: 20px 20px 22px 20px;
+    }
+
+    .iar-aboutImgYrs>.row:first-child {
+        margin-bottom: 20px;
+    }
+
+    /* srtream box responsive for 768 to above */
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block {
+        padding: 60px 20px 60px 20px;
+    }
+
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* proghram section */
+    .iar-coursesContent .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .iar-coursesContent .title-inner .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .iar-courses-col:nth-last-child(-n + 5) {
+        margin-top: 30px;
+    }
+
+    .iar-courses {
+        padding: 30px;
+    }
+
+    .iar-streamBox,
+    .iar-courses,
+    .iar-3dBox,
+    .iar-latestNewsEventNotice,
+    .iar-latestEvents,
+    .iar-tabIconContent,
+    .iar-testimonial,
+    .logo-gallery {
+        padding: 40px 0;
+    }
+
+    .iar-aboutUniversity {
+        padding: 40px 0 0;
+    }
+
+    .iar-admissionOpen {
+        padding: 40px 0 0;
+    }
+
+    .iar-admissionOpenContent {
+        padding: 40px 0 60px 40px;
+    }
+
+    .iar-admissionOpenContent .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn,
+    .iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn {
+        padding: 10px 13px;
+    }
+
+    .iar-admissionOpenContent .title-inner .title {
+        font-size: 24px;
+    }
+
+    .iar-admissionOpenContent .description p {
+        line-height: 1.4;
+    }
+
+    /* latet news and event and notice  */
+    .iar-latestNewsEventNotice .news-block .newss-short,
+    .iar-latestNewsEventNotice .event-block .events-short,
+    .notice-block .notices-short {
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .iar-latestNewsEventNotice .news-block .newss-short .img-part img {
+        /* max-width: 120px; */
+    }
+
+    .iar-latestNewsEventNotice .news-block .newss-short .img-part {
+        width: 200px;
+    }
+
+    .iar-latestNewsEventNotice .title-inner .title {
+        margin-bottom: 18px;
+    }
+
+    /* inovation event */
+    .iar-latestEvents .latestEvent_slider .slick-dots {
+        bottom: -35px !important;
+    }
+
+    /* tabs  */
+    .iar-tabIconContent .tab-content .tab-pane .iar-tabContent-col,
+    .iar-tabIconContent .tab-content .tab-pane:nth-child(2) .iar-tabContent-col {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .description p {
+        margin: 0 0 16px;
+    }
+
+    .iar-tabIconContent .tab-content {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        margin: 0 0 10px;
+    }
+
+    /* testimonial css */
+    .iar-testimonial .testimonial-col .content-wrap-testimonial {
+        padding: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+        font-size: 20px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .arrow-testimonial-img {
+        margin-bottom: 15px;
+        max-width: 80px;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 40px;
+    }
+
+    /* logo gallery */
+    .logo-gallery .logo-gallery-col {}
+
+    .iar-courses .iar-courses-block .iar-courses-img .iar-courses-title .title,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .iar-latestEvents .latestEvent_slider .event-item .events-short .content-part {
+        padding: 10px;
+    }
+
+    .iar-streamBox {
+        /*! padding: 0 15px; */
+    }
+
+    .footer-1 .widget,
+    .footer-3 .widget,
+    .footer-2 .widget {
+        margin-top: 0px;
+    }
+
+    .float_slider_banner .slider-content .span-title span {
+        font-size: 14px;
+    }
+
+    .copyright_border .rows {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+    }
+
+    .copyright_border .rows .frist-cols {
+        order: 1;
+    }
+
+    .iar-footer .footer-bottom .widget_nav_menu ul {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .iar-footer .footer-bottom .widget_nav_menu ul li {
+        padding: 0 0 6px 0;
+    }
+
+    .iar-footer .footer-bottom .widget_nav_menu ul li:first-child a {
+        padding-left: 0 !important;
+    }
+
+    /* latest News 767 Slider css */
+    .iar-latestNewsEventNotice .news-block .newss-short:not(:last-child),
+    .iar-latestNewsEventNotice .event-block .events-short:not(:last-child),
+    .notice-block .notices-short:not(:last-child) {
+        height: auto;
+        justify-content: center;
+        flex-direction: row;
+        /*! text-align: center; */
+        margin-bottom: 30px;
+    }
+
+    .iar-latestNewsEventNotice .news-block .newss-short,
+    .iar-latestNewsEventNotice .event-block .events-short,
+    .notice-block .notices-short {
+        padding: 20px;
+    }
+
+    .iar-latestNewsEventNotice .news-block .newss-short {
+        justify-content: center;
+        flex-direction: row;
+        /*         text-align: center; */
+        padding: 15px;
+    }
+
+    .iar-latestNewsEventNotice .news-block .newss-short .img-part {
+        width: 250px;
+    }
+
+    /* inovation event */
+    .iar-latestEvents .latestEvent_slider .slick-dots {
+        bottom: -30px !important;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane:nth-child(2) .iar-tabContent-col {
+        order: 1;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .iar-tabContent-col,
+    .iar-tabIconContent .tab-content .tab-pane:nth-child(2) .iar-tabContent-col {
+        padding: 15px;
+    }
+
+    .iar-tabIconContent .tab-content {
+        margin-top: 50px;
+        padding: 18px;
+    }
+
+    /* Testimonial css */
+
+    /* footer  */
+    .iar-footer .fa-ul li {
+        padding: 0px 0px 15px 30px;
+    }
+
+    /* latest new 767  */
+
+    .iar-latestNewsEventNotice .title-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .iar-latestNewsEventNotice .title-inner .slick-controls {
+        display: flex;
+    }
+
+    /* .iar-latestNewsEventNotice .title-inner .slick-controls button {
+          cursor: pointer;
+          min-width: 30px;
+          min-height: 30px;
+          position: relative;
+          display: block;
+          z-index: 1;
+          border-radius: 50%;
+          overflow: hidden;
+          background: var(--primary-blue);
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0px 5px 0 0;
+      } */
+
+    /* .iar-latestNewsEventNotice .title-inner .slick-controls button span i {
+          color: var(--primary-white);
+      } */
+
+    .iar-latestNewsEventNotice .title-inner .title {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    /* footer  */
+    .recent-post-widget,
+    .touch-ul,
+    .menu-courses {
+        margin: 25px auto 0px auto !important;
+    }
+
+    .footer-title {
+        background: var(--primary-white);
+        color: var(--primary-blue);
+        padding: 15px 15px;
+        pointer-events: auto;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .footer-title::after {
+        bottom: 8px;
+        left: 15px;
+        background: var(--primary-black);
+    }
+
+    .footer-title::before {
+        content: "\f067";
+        font-family: "Font Awesome 5 Free";
+        color: var(--primary-black);
+        font-size: 20px;
+        position: absolute;
+        top: auto;
+        font-weight: 900;
+        right: 15px;
+    }
+
+    .footer-title.show::before {
+        content: "\f068";
+    }
+
+    .footer-title:after {
+        display: none;
+    }
+
+    .iar-3dBox .iar-3d-item-back .iar-3d-description {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-img .iar-courses-title .title,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+        font-size: 22px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text {
+        padding: 19px 8px;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon.email-title {
+        margin-left: 0;
+    }
+
+    .iar-admissionOpenContent .description {
+        width: 80%;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        width: 70%;
+    }
+
+    .iar-newsletter .sec-title .title-icon img {
+        max-width: 28px;
+        margin-right: 0;
+        max-height: 28px;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .stayConnect_social li a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        padding: 7px 15px;
+    }
+
+    .form-newsLetter form .newsletter-form button {
+        padding: 0 15px;
+    }
+
+    .iar-newsletter .iar-newsLetter-col,
+    .iar-stayConnect-col {
+        flex-direction: column;
+    }
+
+    .form-newsLetter {
+        flex: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .iar-newsletter .sec-title {
+        flex: 0;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-stayConnect-col {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stayConnect_social {
+        margin: 15px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    /* float slider banner css max for  */
+    .float_slider_banner .slider-content .main-title-iar p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 80%;
+    }
+
+    .float_slider_banner .slider-content .main-title-iar h2 {
+        font-size: 40px;
+    }
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+        padding: 10px 13px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .slider-banner-iar .slick_slider .single-slide-wrap .float_slider_banner {
+        margin: auto;
+        top: -12px;
+    }
+
+    .slider-banner-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .slider-banner-iar .slick-controls button span i {
+        font-size: 20px;
+    }
+
+    /* iar about responsive  */
+    .iar-aboutContent {
+        padding: 45px 30px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .title {
+        font-size: 17px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .count-number span {
+        font-size: 35px;
+    }
+
+    .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .col-iar-stuinfo {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .iar-aboutImgYrs .counterBox {
+        padding: 18px 18px 18px 18px;
+    }
+
+    .iar-aboutImgYrs>.row:first-child {
+        margin-bottom: 0;
+    }
+
+    .col-iar-img {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+
+    .iar-aboutImgYrs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* srtream box responsive for  to above */
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block {
+        /*! padding: 40px 20px 40px 20px; */
+    }
+
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* program setion  */
+    .iar-coursesContent .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .iar-streamBox,
+    .iar-courses,
+    .iar-3dBox,
+    .iar-latestNewsEventNotice,
+    .iar-latestEvents,
+    .iar-tabIconContent,
+    .iar-testimonial,
+    .logo-gallery {
+        padding: 40px 0;
+    }
+
+    .iar-aboutUniversity {
+        padding: 40px 0 0;
+    }
+
+    .iar-admissionOpen {
+        padding: 40px 0 0;
+    }
+
+    .iar-newsletter {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .iar-courses-col:nth-last-child(-n + 6) {
+        margin-top: 30px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col:nth-last-child(-n + 4) {
+        margin-top: 30px;
+    }
+
+    .iar-admissionOpenContent .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn,
+    .iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn {
+        padding: 10px 13px;
+    }
+
+    .iar-admissionOpenContent .title-inner .title {
+        font-size: 24px;
+    }
+
+    .iar-admissionOpenContent .description p {
+        line-height: 1.4;
+    }
+
+    .iar-admissionOpenContent {
+        padding: 40px 0 50px 40px;
+    }
+
+    /* tab ar4ea for 767 */
+
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        margin: 0 0 10px;
+    }
+
+    .iar-tabIconContent .nav-tabs li a {
+        padding: 15px 20px;
+        width: 145px;
+        height: 140px;
+    }
+
+    .iar-tabIconContent .nav-tabs li a img {
+        max-width: 50px;
+    }
+
+    /* testimonial css */
+    .iar-testimonial .testimonial-col .content-wrap-testimonial {
+        padding: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+        font-size: 20px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .arrow-testimonial-img {
+        margin-bottom: 15px;
+        max-width: 80px;
+    }
+
+    .iar-testimonial .testimonial-col .testimonial-image-area {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 40px;
+    }
+
+    /* logo gallery */
+    .logo-gallery .logo-gallery-col {}
+
+    .iar-latestEvents .latestEvent_slider .event-item .events-short .content-part {
+        padding: 10px;
+    }
+
+    /* 3d roate responsive  */
+    .iar-3d-item .iar-3d-icon i {
+        /* font-size: 35px; */
+    }
+
+    .iar-3dBox .iar-3d-item .iar-3d-header {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .iar-latestNewsEventNotice .event-block .events-short .date-part {
+        min-width: 80px;
+    }
+
+    .iar-latestNewsEventNotice .notices-block .notices-short .date-part {
+        min-width: 80px;
+    }
+
+    .notice-block .notices-short .content-part .title {
+        padding: 0;
+    }
+
+    .iar-newsletter .iar-newsLetter-col {
+        flex-direction: column;
+        border: 0;
+        padding: 0px 15px 15px;
+    }
+
+    .iar-stayConnect-col {
+        flex-direction: column;
+        border: 0;
+        padding: 25px 15px 15px;
+    }
+
+    .iar-newsletter .iar-newsLetter-col .sec-title {
+        padding-top: 25px;
+        border-top: 1px solid #fff;
+
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575.98px) {
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-img .iar-courses-title .title,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+        font-size: 20px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text {
+        padding: 19px 8px;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon.email-title {
+        margin-left: 0;
+    }
+
+    .iar-admissionOpenContent .description {
+        width: 100%;
+    }
+
+    .iar-aboutUniversity {
+        padding: 60px 0 0;
+    }
+
+    .banner_slider_img.desktop_view {
+        display: none;
+    }
+
+    .banner_slider_img.mobile_view {
+        display: block;
+    }
+
+    .iar-newsletter .sec-title .title-icon img {
+        max-width: 28px;
+        margin-right: 0;
+        max-height: 28px;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .stayConnect_social li a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        padding: 7px 15px;
+        width: 100%;
+    }
+
+    .form-newsLetter form .newsletter-form button {
+        padding: 0 15px;
+    }
+
+
+
+    .form-newsLetter {
+        flex: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .iar-newsletter .sec-title {
+        flex: 0;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-stayConnect-col {
+        justify-content: center;
+        align-items: center;
+        padding: 0 12px 25px;
+        order: 0;
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    }
+
+    .stayConnect_social {
+        margin: 15px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    /* float slider banner css max for 768 */
+    .float_slider_banner .slider-content .main-title-iar p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .float_slider_banner .slider-content .main-title-iar h2 {
+        font-size: 40px;
+    }
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+        padding: 10px 13px;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+
+    .slider-banner-iar .slick_slider .single-slide-wrap .float_slider_banner {
+        margin: auto;
+        padding: 25px;
+    }
+
+    .slider-banner-iar .slick-controls button {
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+    .slider-banner-iar .slick-controls button span i {
+        font-size: 16px;
+    }
+
+    .slider-banner-iar .slick-controls {
+        top: 84%;
+    }
+
+    .slider-banner-iar .slick-controls button.next {
+        left: auto;
+        right: 15px;
+    }
+
+    .slider-banner-iar .slick-controls button.previous {
+        right: 70px;
+        left: auto;
+    }
+
+    /* iar about responsive  */
+    .iar-aboutContent {
+        padding: 25px 20px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .title {
+        font-size: 16px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .count-number span {
+        font-size: 35px;
+    }
+
+    .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .col-iar-stuinfo {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .iar-aboutImgYrs .counterBox {
+        padding: 10px;
+    }
+
+    .iar-aboutImgYrs>.row:first-child {
+        margin-bottom: 0;
+    }
+
+    .col-iar-img {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+
+    .iar-aboutImgYrs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .iar-aboutContent .title-inner .title {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0 0 20px;
+    }
+
+    /* srtream box responsive for 768 to above */
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block {
+        /*! padding: 40px 20px 40px 20px; */
+    }
+
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* 
+      .iar-aboutUniversity,
+      .iar-streamBox,
+      .iar-courses,
+      .iar-galleryBox,
+      .iar-latestNewsEventNotice,
+      .iar-latestEvents,
+      .iar-tabIconContent {
+          padding: 30px 0;
+      } */
+
+    .iar-streamBox,
+    .iar-courses,
+    .iar-3dBox,
+    .iar-latestNewsEventNotice,
+    .iar-latestEvents,
+    .iar-tabIconContent,
+    .logo-gallery {
+        padding: 30px 0;
+    }
+
+    .iar-testimonial {
+        padding: 60px 0 30px;
+    }
+
+    .iar-aboutUniversity {
+        padding: 30px 0 0;
+    }
+
+    .iar-admissionOpen {
+        padding: 30px 0 0;
+    }
+
+    .iar-newsletter {
+        margin: 0 0 30px 0;
+        padding-top: 30px;
+    }
+
+    .iar-coursesContent {
+        padding: 15px 18px;
+    }
+
+    .iar-coursesContent .title-inner .title {
+        font-size: 18px;
+    }
+
+    .iar-coursesContent .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .iar-courses-col:nth-last-child(-n + 6) {
+        margin-top: 30px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col:nth-last-child(-n + 4) {
+        margin-top: 30px;
+    }
+
+    .iar-admissionOpenContent .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn,
+    .iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn {
+        padding: 10px 13px;
+    }
+
+    .iar-admissionOpenContent .title-inner .title {
+        font-size: 24px;
+    }
+
+    .iar-admissionOpenContent .description p {
+        line-height: 1.4;
+    }
+
+    .iar-admissionOpenContent {
+        padding: 30px 45px;
+    }
+
+    /* tab area  */
+
+    .iar-tabIconContent .tab-content {
+        margin-top: 40px;
+        padding: 30px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        margin: 0 0 10px;
+    }
+
+    /* tab ar4ea for  */
+
+    .iar-tabIconContent .nav-tabs li a {
+        padding: 15px 20px;
+        width: 145px;
+        height: 140px;
+    }
+
+    .iar-tabIconContent .nav-tabs li a img {
+        max-width: 50px;
+    }
+
+    .iar-tabIconContent .nav-tabs li {
+        margin: 0px 0px 0px 15px;
+    }
+
+    /* tabs area section  */
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        font-size: 26px;
+    }
+
+    .iar-tabIconContent .tab-content {
+        padding: 15px;
+        margin-top: 15px 30px;
+    }
+
+    /* testimonial css */
+    .iar-testimonial .testimonial-col .content-wrap-testimonial {
+        padding: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+        font-size: 20px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .arrow-testimonial-img {
+        margin: 8px 0;
+        max-width: 80px;
+    }
+
+    .iar-testimonial .testimonial-col .testimonial-image-area {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 30px;
+    }
+
+    /* logo gallery */
+    .logo-gallery .logo-gallery-col {}
+
+    .iar-3d-item .iar-3d-header {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 479.98px) {
+
+
+
+    .iar-latestNewsEventNotice .news-block .newss-short,
+    .iar-latestNewsEventNotice .event-block .events-short,
+    .notice-block .notices-short {
+        padding: 15px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        margin: 0 0 10px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text .courses-title .title {
+        font-size: 22px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-text .courses-txt,
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-txt {
+        font-size: 18px;
+    }
+
+    .slider-banner-iar .slick-controls button.previous {
+        right: 70px;
+        left: auto;
+    }
+
+    .slider-banner-iar .slick-controls button.next {
+        left: auto;
+        right: 15px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-title h2 {
+        font-size: 26px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block .iar-courses-text .courses-title h2 {
+        font-size: 22px;
+    }
+
+    .top-link-header .iar-header .custom_navbar {
+        padding: 0;
+    }
+
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-icons span i {
+        font-size: 30px;
+    }
+
+    .iar-newsletter .sec-title .title-icon.email-title {
+        margin-left: 0;
+    }
+
+    .banner_slider_img.desktop_view {
+        display: none;
+    }
+
+    .banner_slider_img.mobile_view {
+        display: block;
+    }
+
+    .iar-newsletter .sec-title .title-icon img {
+        max-width: 28px;
+        margin-right: 0;
+        max-height: 28px;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .stayConnect_social li a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .form-newsLetter form .newsletter-form input {
+        padding: 7px 15px;
+        width: 100%;
+    }
+
+    .form-newsLetter form .newsletter-form button {
+        padding: 0 15px;
+    }
+
+
+    .form-newsLetter {
+        flex: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .iar-newsletter .sec-title {
+        flex: 0;
+        width: 100%;
+    }
+
+    .iar-newsletter .sec-title .title-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-stayConnect-col {
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 25px 0;
+        order: 0;
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    }
+
+    .stayConnect_social {
+        margin: 15px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iar-newsletter .sec-title .title-icon .title:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    /* float slider banner css max for 768 */
+    .float_slider_banner .slider-content .main-title-iar p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+        margin: 12px 0 0 0;
+    }
+
+    .float_slider_banner .slider-content .main-title-iar h2 {
+        font-size: 30px;
+    }
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn a {
+        padding: 11px 18px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .slider-banner-iar .slick_slider .single-slide-wrap .float_slider_banner {
+        margin: auto;
+        padding: 16px;
+    }
+
+    .slider-banner-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .slider-banner-iar .slick-controls button span i {
+        font-size: 16px;
+    }
+
+    .slider-banner-iar .slick-controls {
+        top: 88%;
+    }
+
+    /* 
+      .slider-banner-iar .slick-controls button.next {
+          right: auto;
+          left: 63px;
+      } */
+
+    .float_slider_banner .slider-content .btn-iar-banner.slider-btn {
+        margin-top: 18px;
+    }
+
+    /* iar about responsive  */
+    .iar-aboutContent {
+        padding: 25px 20px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .title {
+        font-size: 18px;
+    }
+
+    .iar-aboutImgYrs .counterBox .count-text .count-number span {
+        font-size: 35px;
+    }
+
+    .readMoreBtn .readMore {
+        padding: 10px 13px;
+    }
+
+    .col-iar-stuinfo {
+        margin-bottom: 0;
+        margin-top: 15px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .iar-aboutImgYrs .counterBox {
+        padding: 18px 18px 18px 18px;
+    }
+
+    .iar-aboutImgYrs>.row:first-child {
+        margin-bottom: 0;
+    }
+
+    .col-iar-img {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+
+    .iar-aboutImgYrs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .iar-aboutContent .title-inner .title {
+        font-size: 19px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }
+
+    .iar-aboutContent .description p {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0 0 15px;
+    }
+
+    .iar-courses .iar-courses-block .iar-courses-img img {
+        width: 100%;
+    }
+
+    /* srtream box responsive for 768 to above */
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block {
+        /*! padding: 25px; */
+    }
+
+    .iar-streamBox .iar-streamBox-col .iar-streamBox-block .iar-streams-part .iar-streams-title .title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .iar-streamBox,
+    .iar-courses,
+    .iar-3dBox,
+    .iar-latestNewsEventNotice,
+    .iar-latestEvents,
+    .iar-tabIconContent,
+    .logo-gallery {
+        padding: 30px 0;
+    }
+
+    .iar-testimonial {
+        padding: 60px 0 30px;
+    }
+
+    .iar-aboutUniversity {
+        padding: 30px 0 0;
+    }
+
+    .iar-admissionOpen {
+        padding: 30px 0 0;
+    }
+
+    .iar-newsletter {
+        margin: 0;
+    }
+
+    .iar-courses-col,
+    .iar-galleryBox .iar-galleryBox-col {
+        width: 100%;
+    }
+
+    .iar-coursesContent .title-inner .title br {
+        display: none;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col .iar-galleryBox-block {
+        text-align: center;
+    }
+
+    .iar-courses-col:nth-last-child(-n + 7) {
+        margin-top: 20px;
+    }
+
+    .iar-galleryBox .iar-galleryBox-col:nth-last-child(-n + 5) {
+        margin-top: 20px;
+    }
+
+    .iar-admissionOpenContent .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .applyNow .applyNowBtn,
+    .iar-tabIconContent .tab-content .tab-pane .discoverMore .discoverMoreBtn,
+    .iar-tabIconContent .tab-content .tab-pane .viewTeachers .viewTeachersBtn {
+        padding: 10px 13px;
+    }
+
+    .iar-admissionOpenContent .title-inner .title {
+        font-size: 24px;
+    }
+
+    .iar-admissionOpenContent .description p {
+        line-height: 1.4;
+    }
+
+    .iar-admissionOpenContent {
+        padding: 20px 20px;
+    }
+
+    .iar-admissionOpenContent .description {
+        width: 100%;
+    }
+
+    /* inovation event  */
+    .iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .titleP {
+        font-size: 18px;
+    }
+
+    .iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .title a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .iar-latestEvents .title-inner .title {
+        font-size: 26px;
+    }
+
+    .iar-latestEvents .latestEvent_slider .event-item .events-short .content-part .title {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    .iar-latestEvents .title-inner .sub-text {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .iar-latestEvents .latestEvent_slider .slick-dots li button {
+        width: 18px;
+    }
+
+    /* iar tab scholar */
+    .iar-tabIconContent .nav-tabs li,
+    .iar-tabIconContent .nav-tabs li:first-child {
+        width: 100%;
+        margin: 8px 15px;
+    }
+
+    .iar-tabIconContent .nav-tabs li a {
+        padding: 8px 12px;
+        width: 100%;
+        height: auto;
+    }
+
+    .iar-tabIconContent .nav-tabs li a img {
+        max-width: 45px;
+    }
+
+    .iar-tabIconContent .tab-content {
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .title-inner .title {
+        font-size: 26px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .description p {
+        margin: 0 0 15px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane:nth-child(2) .iar-tabContent-col {
+        padding: 15px;
+    }
+
+    .iar-tabIconContent .tab-content .tab-pane .iar-tabContent-col {
+        padding: 15px 15px;
+    }
+
+    /* testimonial css */
+    .iar-testimonial .testimonial-col .content-wrap-testimonial {
+        padding: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .testimonial-content .testimonial-information .testimonial-name {
+        font-size: 22px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .testimonial-content .testimonial-information .testimonial-title {
+        font-size: 14px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .item-content p {
+        font-size: 18px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .user-monial-iar .slick-controls button {
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .iar-testimonial .testimonial-col .content-wrap-testimonial .arrow-testimonial-img {
+        margin: 9px 0;
+        max-width: 80px;
+    }
+
+    .iar-testimonial .testimonial-col .testimonial-image-area {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .iar-footer .footer-top {
+        margin-top: 20px;
+    }
+
+    /* logo gallery */
+    .logo-gallery .logo-gallery-col {
+        /* margin-bottom: 15px; */
+    }
+
+    .iar-testimonial .testimonial-col {
+        margin-top: 10px;
+    }
+}
+
+/* Start 11-10-2021 CSS */
+.iar-latestNewsEventNotice .title-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.iar-latestNewsEventNotice .desktopView .view-more-btn-area {
+    text-align: center;
+}
+
+.iar-latestNewsEventNotice .desktopView .view-more-btn {
+    display: inline-block;
+}
+
+.iar-latestNewsEventNotice .title-inner .btn {
+    padding: 0;
+    display: none;
+}
+
+.iar-latestNewsEventNotice .title-inner .btn a {
+    display: block;
+    text-decoration: none;
+    width: 30px;
+}
+
+.iar-latestNewsEventNotice .title-inner .btn a svg {
+    background: #1c335f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 8px;
+}
+
+.iar-latestNewsEventNotice .title-inner .btn a:hover svg {
+    background: #f4bf00;
+}
+
+.iar-latestNewsEventNotice .title-inner .btn a svg path {
+    fill: #fff;
+}
+
+/* End 11-10-2021 CSS */
+
+/* Start 21-02-2022 */
+.page-template-home .custom_title h2.title {
+    color: var(--primary-blue);
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.page-template-home .col-lg-12.col-md-12.col-sm-12.col-12.custom_title {
+    margin-bottom: 60px;
+}
+/* End 21-02-2022 */
+
+.newTicker {
+  z-index: 9999999;
+  background-color: #8a3375;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 0;
+  margin-top: -120px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+
+.newTicker.comp {
+  -webkit-transform: translateX(-96%);
+  transform: translateX(-96%);
+}
+
+.updateTicker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.updateTicker::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.updateTicker::before {
+  display: table;
+  content: "";
+}
+
+.updateTicker .marquee-sibling {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -ms-flex-preferred-size: 200px;
+  flex-basis: 200px;
+  height: 42.7px;
+  padding: 0 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "source_sans_probold", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: #1e3369;
+  font-size: 24px;
+}
+
+.updateTicker .marquee-sibling:hover {
+  background-color: #2448a3;
+}
+
+.updateTicker .marquee-sibling>.dropdown {
+  width: 100%;
+}
+
+.updateTicker .marquee-sibling>.dropdown>span {
+  cursor: pointer;
+}
+
+.updateTicker .marquee-sibling .dropdown>span {
+  display: block;
+  font-family: "prohibitionregular";
+  font-weight: 400;
+}
+
+.updateTicker .marquee-sibling .dropdown>span::after {
+  display: none;
+}
+
+.updateTicker .marquee-sibling .dropdown>span svg {
+  width: 20px;
+  height: 22px;
+  margin-left: 15px;
+}
+
+.updateTicker .marquee-sibling .dropdown>span svg path {
+  fill: #fff;
+}
+
+.updateTicker .marquee-sibling .dropdown .dropdown-menu {
+  padding: 0;
+  border-radius: 0;
+}
+
+.updateTicker .marquee-sibling .dropdown .dropdown-menu .dropdown-item {
+  padding: 3px 10px;
+  padding: 0.1875rem 0.625rem;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 2;
+  color: #fff;
+  background-color: #1e3369;
+}
+
+.updateTicker .marquee-sibling .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #b13a50;
+}
+
+.updateTicker .dropdown-menu.show {
+  height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #1e3369;
+  width: 100%;
+}
+
+.updateTicker .dropdown-menu.show::-webkit-scrollbar {
+  width: 5px;
+}
+
+.updateTicker .dropdown-menu.show::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+.updateTicker .dropdown-menu.show:hover::-webkit-scrollbar-thumb {
+  background: #f97d0d;
+}
+
+.updateTicker .dropdown-menu.show::-webkit-scrollbar-track {
+  -moz-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+  background: transparent;
+}
+
+.tickercontainer {
+  float: left;
+  width: calc(100% - 178px);
+  height: 42px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+}
+
+.tickercontainer .mask {
+  position: relative;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+ul.NewsTicker {
+  font-family: "source_sans_proregular", sans-serif;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 0;
+  -ms-flex-preferred-size: calc(100% - 50px);
+  flex-basis: calc(100% - 50px);
+  max-width: calc(100% - 50px);
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.updateTicker .NewsTickerSlider {
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider {
+  position: relative;
+  width: 100%;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-prev {
+  left: 0;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-prev svg {
+  width: 16px;
+  height: 18px;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-prev svg path {
+  fill: #000;
+  font-weight: bold;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-prev:hover svg path {
+  fill: #b13a50;
+  font-weight: bold;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-next {
+  border: none;
+  right: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-next svg {
+  width: 16px;
+  height: 18px;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-next svg path {
+  fill: #000;
+  font-weight: bold;
+}
+
+.updateTicker .NewsTickerSlider .tickerSlider span.ticker-next:hover svg path {
+  fill: #b13a50;
+  font-weight: bold;
+}
+
+.updateTicker .NewsTickerSlider .arrows>span.sno {
+  width: 54px;
+  display: inline-block;
+  padding: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-family: "prohibitionregular";
+  font-size: 20px;
+}
+
+.updateTicker .NewsTickerSlider .arrows>span.sno .csc {
+  padding: 0 5px;
+}
+
+.updateTicker .NewsTickerSlider .arrows>span.sno .tst {
+  padding: 0 5px;
+}
+
+ul.NewsTicker .tickerItem {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "source_sans_prosemibold", sans-serif;
+  font-weight: 600;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ul.NewsTicker .tickerItem span {
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
+  max-width: 100px;
+  padding-left: 10px;
+  padding-left: 0.625rem;
+}
+
+ul.NewsTicker .tickerItem a {
+  padding: 0 15px;
+  margin: 0;
+  overflow: hidden;
+  font-family: "source_sans_prosemibold", sans-serif;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: calc(100% - 200px);
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+ul.NewsTicker .tickerItem a:hover {
+  color: #b13a50;
+}
+
+ul.NewsTicker .tickerSocial {
+  position: relative;
+  float: left;
+  width: 70px;
+}
+
+ul.NewsTicker .tickerSocial span {
+  width: 20px;
+}
+
+ul.NewsTicker .tickerSocial ul {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  z-index: -1;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  background-color: #b13a50;
+  border: 1px solid #b13a50;
+  border-radius: 29px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translateX(10%);
+  transform: translateX(10%);
+}
+
+ul.NewsTicker .tickerSocial ul::before {
+  display: table;
+  content: "";
+}
+
+ul.NewsTicker .tickerSocial ul::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+ul.NewsTicker .tickerSocial ul li {
+  float: left;
+  width: 30px;
+}
+
+ul.NewsTicker .tickerSocial ul li a {
+  color: #fff;
+}
+
+ul.NewsTicker .tickerSocial .social_hover:hover ul {
+  z-index: 9;
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+ul.NewsTicker .tickerSocial .social_hover:hover ul li:hover a {
+  color: #fff;
+}
+
+ul.NewsTicker .tickerItem .tickerSocial .social_hover:hover ul li a {
+  font-size: 14px;
+}
+.newTicker .slick-track {
+	height:auto !important;
+}
+@media only screen and (min-width: 992px) and (max-width: 1024.98px) {
+
+  .newTicker.comp {
+    -webkit-transform: translateX(-93%);
+    transform: translateX(-93%);
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .newTicker {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .newTicker.transform .NewsTickerSlider {
+        display: none;
+    }
+    .newTicker.comp {
+        -webkit-transform: translateX(-93%);
+        transform: translateX(-93%);
+    }
+}

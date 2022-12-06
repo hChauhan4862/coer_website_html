@@ -1,0 +1,129 @@
+.iar-innovationsEvents {
+    padding: 80px 0;
+}
+.iar-innovationsEvents .card {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.iar-innovationsEvents .card .event-short {
+    text-align: left;
+    box-shadow: 0 0 20px #eee;
+    padding: 15px;
+}
+.iar-innovationsEvents .card .event-short .featured-img {
+    position: relative;
+    overflow: hidden;
+}
+.iar-innovationsEvents .innovationsEventListMasonry .eventItems-col:nth-child(1n) .card .event-short .featured-img {
+    height: 250px;
+    overflow: hidden;
+}
+.iar-innovationsEvents .innovationsEventListMasonry .eventItems-col:nth-child(2n) .card .event-short .featured-img {
+    height: 100%;
+    overflow: hidden;
+}
+/* .iar-innovationsEvents .card .event-short .featured-img.feature-img01 {
+    height: 250px;
+    overflow: hidden;
+} */
+.iar-innovationsEvents .card .event-short .featured-img img {
+  border-radius: 0;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.8s ease 0s;
+}
+.iar-innovationsEvents .card:hover .event-short .featured-img img {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.iar-innovationsEvents .card .event-short .content-part {
+    padding: 20px 15px 10px 15px;
+    /* padding: 15px 0 0; */
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    text-align: left;
+}
+.iar-innovationsEvents .card .event-short .content-part .dates {
+    background: var(--primary-yellow);
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
+    max-width: 220px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'proxima_novaregular';
+}
+.iar-innovationsEvents .card .event-short .content-part .title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: 'proxima_novaregular';
+    margin: 0 0 15px 0;
+}
+
+.iar-innovationsEvents .card .event-short .content-part .title a {
+    color: #000000;
+}
+.iar-innovationsEvents .card:hover .event-short .content-part .title a {
+    color: #f4bf00;
+}
+.iar-innovationsEvents .card .event-short .content-part .time-sec {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dddddd;
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+.iar-innovationsEvents .card .event-short .content-part .time-sec i {
+    color: #f4bf00;
+    font-size: 12px;
+    margin-right: 4px;
+}
+.iar-innovationsEvents .card .event-short .content-part .time-sec .timesec {
+    margin-right: 0;
+    font-size: 12px;
+    color: #000000;
+}
+.iar-innovationsEvents .card .event-short .content-part .address {
+    padding-bottom: 0;
+    color: #000000;
+    font-size: 12px;
+}
+.iar-innovationsEvents .card:hover {
+    
+}
+.iar-innovationsEvents .card.eventOnlyTxtBg {}
+
+.iar-innovationsEvents .card.eventOnlyTxtBg .event-short {
+  padding: 0;
+}
+
+.iar-innovationsEvents .card.eventOnlyTxtBg .event-short .onlyTxt {
+    text-align: center;
+    padding: 30px;
+    background-color: #02326a;
+}
+
+.iar-innovationsEvents .card.eventOnlyTxtBg .event-short .onlyTxt p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'proxima_nova_altbold';
+    margin: 0;
+    color: #fff;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 767.98px) {
+  .iar-innovationsEvents .card.eventOnlyTxtBg .event-short .onlyTxt{
+    padding: 20px;
+  }
+  .iar-innovationsEvents .card .event-short .content-part{
+    padding: 20px;
+  }
+}

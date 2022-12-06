@@ -1,0 +1,16 @@
+:root {
+
+    /* blue primary color  */
+    --primary-blue: #1c335f;
+    --primary-yellow: #f4bf00;
+    --primary-white: #fff;
+    --secondary-white: #ccc;
+    --primary-black: #000;
+    --siteIdentity-color: #8a3375;
+
+    /* font vaient  */
+
+    --font-proxima-bold: 'proxima_novabold';
+    --font-proxima-alt-bold: 'proxima_nova_altbold';
+    --font-proxima-bold: 'proxima_novabold';
+}

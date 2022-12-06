@@ -1,0 +1,19 @@
+/*
+ Theme Name:   IAR Child Theme
+ Theme URI:    https://www.wpbeginner.com/
+ Description:  A IAR child theme 
+ Author:       WPBeginner
+ Author URI:   https://www.wpbeginner.com
+ Template:     iar
+ Version:      1.0.0
+*/
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url("https://iar.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.woff") format("woff"),
+	     url("https://iar.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
