@@ -20,10 +20,10 @@
                             </div>
 
                             <div class="main-title-iar">
-                                <h2>Start Your Journey With  COER</h2>
-                                <p>COER Is an Innovation modern university, which
-                                    offers professionally focused undergraduate, postgraduate and research degree
-                                    programs.</p>
+                                <h2>Start Your Journey With IAR 4</h2>
+                                <p>The Institute Of Advanced Research (IAR) Is an Innovation modern university,
+                                    which offers professionally focused undergraduate, postgraduate and research
+                                    degree programs.</p>
                             </div>
 
                             <div class="btn-iar-banner slider-btn">
@@ -57,7 +57,7 @@
                             </div>
 
                             <div class="main-title-iar">
-                                <h2>Outstanding COER Student Start-Up</h2>
+                                <h2>Outstanding IAR Student Start-Up</h2>
                                 <p></p>
                             </div>
 

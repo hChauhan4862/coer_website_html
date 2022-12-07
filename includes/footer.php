@@ -12,8 +12,8 @@
 
 					<div class="widget widget_text">
 						<div class="textwidget">
-							<p>The COER university of engineering, which offers professionally focused undergraduate and
-								postgraduate programs.</p>
+							<p>The COER university of engineering, which offers professionally focused undergraduate
+								and postgraduate programs.</p>
 						</div>
 					</div>
 
@@ -54,8 +54,8 @@
 						<ul class="fa-ul touch-ul">
 							<li class="address1">
 								<i class="fas fa-map-marker-alt"></i>
-								<a href="#"><span>7 kms, Roorkee-Haridwar Road (NH-58), Post Box No. 27,Vardhmanpuram,
-										Roorkee-247667 District Haridwar (Uttarakhand)</span></a>
+								<a href="#"><span>7 kms, Roorkee-Haridwar Road (NH-58), Post Box No.
+										27,Vardhmanpuram, Roorkee-247667 District Haridwar (Uttarakhand)</span></a>
 							</li>
 							<li>
 								<i class="fas fa-mobile-alt"></i>

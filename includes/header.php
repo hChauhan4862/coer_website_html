@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="en-US" ng-app="ngapp" ng-controller="mainController">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
@@ -27,11 +27,12 @@
 
     <link rel="stylesheet" href="css/print.css" media="print" />
     <link rel="stylesheet" href="css/cff-style.css" media="all" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=6.1" media="all" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=6.1"
+        media="all" />
 </head>
 
-<body data-rsssl=1 class="home page-template page-template-templates page-template-home page-template-templateshome-php page page-id-12 wp-embed-responsive singular enable-search-modal missing-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible elementor-default elementor-kit-346">
+<body data-rsssl=1
+    class="home page-template page-template-templates page-template-home page-template-templateshome-php page page-id-12 wp-embed-responsive singular enable-search-modal missing-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible elementor-default elementor-kit-346">
 
     <a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
 
@@ -164,7 +165,7 @@
                                 class="dropdown-toggle nav-link">Students Support</a>
                             <ul class="dropdown-menu">
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Placement Cell</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">COER Startup and
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Startup and
                                         Entrepreneurship Cell</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Learning</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees & Scholarships</a>
@@ -185,7 +186,7 @@
                                         Activities</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">News and
                                         Achievements</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">COER Mega Events</a>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Mega Events</a>
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Student Clubs</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Sports</a></li>
