@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US" ng-app="ngapp" ng-controller="mainController">
+<html class="no-js" lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
@@ -27,9 +27,7 @@
 
     <link rel="stylesheet" href="css/print.css" media="print" />
     <link rel="stylesheet" href="css/cff-style.css" media="all" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=6.1"
-        media="all" />
-    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css?ver=6.1" media="all" />
 
 </head>
 
