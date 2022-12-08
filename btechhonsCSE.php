@@ -1,6 +1,5 @@
 <?php
 include('includes/header.php');
-include('includes/slider.php');
 ?>
 <section class="iar-aboutUniversity" id="iar-aboutUniversity">
 	<div class="container">
@@ -90,3 +89,6 @@ include('includes/slider.php');
 		</div>
 	</div>
 </section>
+<?php
+include('includes/footer.php');
+?>
