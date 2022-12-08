@@ -108,7 +108,7 @@
                                 class="dropdown-toggle nav-link">Academics</a>
                             <ul class="dropdown-menu">
                                 <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">Bachelor of Computer Applications(BCA)</a></li> -->
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">B.Tech(Hons.) in CSE
+                                <li class="menu-item nav-item"><a href="btechhonsCSE.php" class="dropdown-item">B.Tech(Hons.) in CSE
                                         with Specialization in Cyber Security</a></li>
                                 <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">B.Tech Hons. In CSE
                                         with Specialization in AI/ML</a></li>
