@@ -132,13 +132,14 @@
                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                 class="dropdown-toggle nav-link">Admissions</a>
                             <ul class="dropdown-menu">
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Admission Procedure</a></li>
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">Scholarships</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Admission Procedure</a>
+                                </li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Scholarships</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">FAQs</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Important Dates</a>
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Counselling</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees Structure</a></li> -->
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees Structure</a></li>
                             </ul>
                         </li>
 
@@ -148,12 +149,12 @@
                             <ul class="dropdown-menu">
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Examination
                                         Schedules</a></li>
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">Circulars & notices</a>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Circulars & notices</a>
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Results</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">SOP – for other
                                         Services</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Convocation</a></li> -->
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Convocation</a></li>
                             </ul>
                         </li>
 
@@ -162,7 +163,7 @@
                                 class="dropdown-toggle nav-link">Students Support</a>
                             <ul class="dropdown-menu">
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Placement Cell</a></li>
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">coer Startup and
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Startup and
                                         Entrepreneurship Cell</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Learning</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees & Scholarships</a>
@@ -171,7 +172,7 @@
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Important Links</a>
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Notice Board</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Downloads</a></li> -->
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Downloads</a></li>
                             </ul>
                         </li>
 
@@ -179,8 +180,9 @@
                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                 class="dropdown-toggle nav-link">Campus Life</a>
                             <ul class="dropdown-menu">
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Events and Activities</a></li>
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">News and
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Events and
+                                        Activities</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">News and
                                         Achievements</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">coer Mega Events</a>
                                 </li>
@@ -190,7 +192,7 @@
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Gym</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Hostel Life</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Canteen / Cafeteria</a>
-                                </li> -->
+                                </li>
                             </ul>
                         </li>
 
