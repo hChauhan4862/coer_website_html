@@ -94,13 +94,12 @@
                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                 class="dropdown-toggle nav-link">About Us</a>
                             <ul class="dropdown-menu">
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">The Trust</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">The Dean</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">The University</a></li>
+                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">The Trust</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">The Dean</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">The Registrar</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Governance</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">University
-                                        Management</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">University Management</a></li> -->
                             </ul>
                         </li>
 
@@ -108,11 +107,10 @@
                             <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                 class="dropdown-toggle nav-link">Academics</a>
                             <ul class="dropdown-menu">
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Bachelor of Computer
-                                        Applications(BCA)</a></li>
+                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">Bachelor of Computer Applications(BCA)</a></li> -->
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">B.Tech(Hons.) in CSE
                                         with Specialization in Cyber Security</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">B.Tech Hons. In CSE
+                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">B.Tech Hons. In CSE
                                         with Specialization in AI/ML</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Master of
                                         Technology(CSE)</a></li>
@@ -126,7 +124,7 @@
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Academic Policies and
                                         Procedures</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Library</a></li>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">Library</a></li> -->
                             </ul>
                         </li>
 
