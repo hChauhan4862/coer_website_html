@@ -5,8 +5,8 @@
 				<div class="col-lg-3 col-md-6 col-sm-12 col-12 footer-0">
 
 					<div class="footer-logo-wrap">
-						<a href="index.html" class="footer-top-logo">
-							<img src="images/ss.PNG" class="img-fluid" alt="" />
+						<a href="/" class="footer-top-logo">
+							<img src="/images/ss.PNG" class="img-fluid" alt="" />
 						</a>
 					</div>
 
@@ -214,20 +214,19 @@
 	var ssb_ui_data = { "z_index": "1" };
 </script>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate.mind.js"></script>
-<script src="js/ng/controller.js"></script>
-<script src="js/ssb-ui.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/magnific-popup.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.nice-select.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/index.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-migrate.mind.js"></script>
+<script src="/js/ssb-ui.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/magnific-popup.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/jquery.nice-select.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/index.js"></script>
 
-<script data-cfasync="false" src="js/email-decode.min.js"></script>
+<script data-cfasync="false" src="/js/email-decode.min.js"></script>
 
 <script>
 	(function () {
@@ -245,21 +244,21 @@
 		}
 	})();
 </script>
-<script src="js/jquery.validate.min.js" id="jquery-validate-js-js"></script>
-<script src="js/script.js" id="script-js-js"></script>
-<script src="js/core.min.js" id="jquery-ui-core-js"></script>
-<script src="js/effect.min.js" id="jquery-effects-core-js"></script>
-<script src="js/effect-shake.min.js" id="jquery-effects-shake-js"></script>
-<script src="js/mind.js" id="mind-js"></script>
-<script src="js/tabs.min.js" id="jquery-ui-tabs-js"></script>
+<script src="/js/jquery.validate.min.js" id="jquery-validate-js-js"></script>
+<script src="/js/script.js" id="script-js-js"></script>
+<script src="/js/core.min.js" id="jquery-ui-core-js"></script>
+<script src="/js/effect.min.js" id="jquery-effects-core-js"></script>
+<script src="/js/effect-shake.min.js" id="jquery-effects-shake-js"></script>
+<script src="/js/mind.js" id="mind-js"></script>
+<script src="/js/tabs.min.js" id="jquery-ui-tabs-js"></script>
 <script id="cffscripts-js-extra">
 	var cffOptions = {
 		"placeholder": "https:\/\/coer.ac.in\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/placeholder.png"
 	};
 </script>
-<script src="js/cff-scripts.js" id="cffscripts-js"></script>
-<script src="js/new-tab.js" id="page-links-to-js"></script>
-<script defer src="js/forms.js" id="mc4wp-forms-api-js"></script>
+<script src="/js/cff-scripts.js" id="cffscripts-js"></script>
+<script src="/js/new-tab.js" id="page-links-to-js"></script>
+<script defer src="/js/forms.js" id="mc4wp-forms-api-js"></script>
 <script>
 	/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () {
 		var t, e = location.hash.substring(1);
