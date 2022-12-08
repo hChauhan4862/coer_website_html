@@ -103,7 +103,7 @@ jQuery(document).ready(function ($) {
 
   // start Banner slider
 
-  jQuery(".slider-banner-iar .slick_slider").slick({
+  jQuery(".slider-banner-coer .slick_slider").slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -118,7 +118,7 @@ jQuery(document).ready(function ($) {
 
   // testinomical slider
   jQuery(
-    ".content-wrap-testimonial .user-monial-iar .testimonial-content"
+    ".content-wrap-testimonial .user-monial-coer .testimonial-content"
   ).slick({
     dots: false,
     infinite: true,
@@ -144,7 +144,7 @@ jQuery(document).ready(function ($) {
 
   //++++ ++++++ for Latest News Event clander Notice board
 
-  // jQuery(".iar-latestNewsEventNotice .news-block").slick({
+  // jQuery(".coer-latestNewsEventNotice .news-block").slick({
   //   dots: false,
   //   arrows: false,
   //   infinite: true,
@@ -173,7 +173,7 @@ jQuery(document).ready(function ($) {
   //   ],
   // });
 
-  // jQuery(".iar-latestNewsEventNotice .event-block ").slick({
+  // jQuery(".coer-latestNewsEventNotice .event-block ").slick({
   //   dots: false,
   //   arrows: false,
   //   infinite: true,
@@ -200,7 +200,7 @@ jQuery(document).ready(function ($) {
   //     },
   //   ],
   // });
-  // jQuery(".iar-latestNewsEventNotice .notice-block ").slick({
+  // jQuery(".coer-latestNewsEventNotice .notice-block ").slick({
   //   dots: false,
   //   arrows: false,
   //   infinite: true,
@@ -248,7 +248,7 @@ jQuery(document).ready(function ($) {
     if (jQuery(window).width() > 1199) {
       // jQuery("body").toggleClass("scrollColse");
       jQuery(
-        ".top-link-header .iar-header .custom_navbar .menu_bar .navbar-nav"
+        ".top-link-header .coer-header .custom_navbar .menu_bar .navbar-nav"
       ).css("display", "flex !important");
     }
   });
@@ -296,12 +296,12 @@ jQuery(document).ready(function ($) {
   // header sticky
 
   jQuery(window).scroll(function () {
-    var sticky = jQuery(".iar-header"),
+    var sticky = jQuery(".coer-header"),
       scroll = jQuery(window).scrollTop();
 
     if (scroll > 20) {
-      sticky.addClass("iar-header-sticky");
-    } else sticky.removeClass("iar-header-sticky");
+      sticky.addClass("coer-header-sticky");
+    } else sticky.removeClass("coer-header-sticky");
   });
 
   // footer open colse menu below 767
@@ -412,13 +412,13 @@ jQuery( ".btn-group a[href='"+hash+"']" ).addClass('active');
 
 // Course Info load more js
 jQuery(function () {
-  jQuery(".single-departments .iar-coursesCategories .courseInfoCol").slice(0, 6).show();
-// 	let btn= jQuery(".iar-coursesCategories .container .load-more-btn .load-more") ;
-  jQuery("body").on("click ", ".iar-coursesCategories .container .load-more-btn .load-more ", function (e) {
+  jQuery(".single-departments .coer-coursesCategories .courseInfoCol").slice(0, 6).show();
+// 	let btn= jQuery(".coer-coursesCategories .container .load-more-btn .load-more") ;
+  jQuery("body").on("click ", ".coer-coursesCategories .container .load-more-btn .load-more ", function (e) {
    		e.preventDefault();
-    jQuery(".single-departments .iar-coursesCategories .courseInfoCol:hidden").slice(0, 3).slideDown();
-    if(jQuery(".single-departments .iar-coursesCategories .courseInfoCol:hidden").length == 0) {
-      jQuery(".single-departments .iar-coursesCategories .load-more-btn").css("visibility", "hidden");
+    jQuery(".single-departments .coer-coursesCategories .courseInfoCol:hidden").slice(0, 3).slideDown();
+    if(jQuery(".single-departments .coer-coursesCategories .courseInfoCol:hidden").length == 0) {
+      jQuery(".single-departments .coer-coursesCategories .load-more-btn").css("visibility", "hidden");
     }
 
   });
@@ -441,12 +441,12 @@ jQuery(function () {
 
 // Labs & Facilitie load more js
 jQuery(function () {
-  jQuery(".iar-3dbackfrontBox .iar-3dBox-col").slice(0, 3).show();
-  jQuery("body").on("click", ".iar-3dbackfrontBox .load-more-btn .load-more", function (e) {
+  jQuery(".coer-3dbackfrontBox .coer-3dBox-col").slice(0, 3).show();
+  jQuery("body").on("click", ".coer-3dbackfrontBox .load-more-btn .load-more", function (e) {
     e.preventDefault();
-	jQuery(".iar-3dbackfrontBox .iar-3dBox-col:hidden").slice(0, 3).slideDown();
-    if(jQuery(".iar-3dbackfrontBox .iar-3dBox-col:hidden").length == 0) {
-      jQuery(".iar-3dbackfrontBox .load-more-btn").css("visibility", "hidden");
+	jQuery(".coer-3dbackfrontBox .coer-3dBox-col:hidden").slice(0, 3).slideDown();
+    if(jQuery(".coer-3dbackfrontBox .coer-3dBox-col:hidden").length == 0) {
+      jQuery(".coer-3dbackfrontBox .load-more-btn").css("visibility", "hidden");
     }
   });
 });
@@ -478,11 +478,11 @@ jQuery(function () {
 // Important Notes load more js
 jQuery(function () {
   jQuery(".importantNotesList").slice(0, 6).show();
-  jQuery("body").on("click ", ".iar-noticeBoardFilterSearch .noticeBoardList .load-more-btn .load-more", function (e) {
+  jQuery("body").on("click ", ".coer-noticeBoardFilterSearch .noticeBoardList .load-more-btn .load-more", function (e) {
     e.preventDefault();
 	jQuery(".importantNotesList:hidden").slice(0, 3).slideDown();
     if(jQuery(".importantNotesList:hidden").length == 0) {
-      jQuery(".iar-noticeBoardFilterSearch .noticeBoardList .load-more-btn").css("visibility", "hidden");
+      jQuery(".coer-noticeBoardFilterSearch .noticeBoardList .load-more-btn").css("visibility", "hidden");
     }
   });
 });

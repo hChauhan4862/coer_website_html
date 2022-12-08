@@ -1,50 +1,50 @@
-.iar-newsList {
+.coer-newsList {
     padding: 80px 0;
 }
-.iar-newsList .news-item {
+.coer-newsList .news-item {
     position: relative;
     cursor: pointer;
 }
-.iar-newsList .news-item .news-short {
+.coer-newsList .news-item .news-short {
     text-align: left;
     box-shadow: 0 0 20px #eee;
 	position: relative;
 }
-.iar-newsList .news-item .news-short .featured-img {
+.coer-newsList .news-item .news-short .featured-img {
     position: relative;
     overflow: hidden;
 }
-.iar-newsList .newsListMasonry .newsItem-col:nth-child(1n) .news-item .news-short .featured-img {
+.coer-newsList .newsListMasonry .newsItem-col:nth-child(1n) .news-item .news-short .featured-img {
     height: 250px;
     overflow: hidden;
 }
 
-.iar-newsList .newsListMasonry .newsItem-col:nth-child(2n) .news-item .news-short .featured-img {
+.coer-newsList .newsListMasonry .newsItem-col:nth-child(2n) .news-item .news-short .featured-img {
     height: 100%;
     overflow: hidden;
 }
-/* .iar-newsList .news-item .news-short .featured-img.feature-img01 {
+/* .coer-newsList .news-item .news-short .featured-img.feature-img01 {
     height: 250px;
     overflow: hidden;
 } */
-.iar-newsList .news-item .news-short .featured-img img {
+.coer-newsList .news-item .news-short .featured-img img {
     border-radius: 5px 5px 0 0;
     transition: all 0.8s ease 0s;
     overflow: hidden;
 	object-fit: cover;
 	width: 100%;
 }
-.iar-newsList .news-item:hover .news-short .featured-img img {
+.coer-newsList .news-item:hover .news-short .featured-img img {
     transform: scale3d(1.1, 1.1, 1.1);
 }
-.iar-newsList .news-item .news-short .content-part {
+.coer-newsList .news-item .news-short .content-part {
     padding: 25px 30px 25px 30px;
     border-radius: 0 0 5px 5px;
 /*     position: relative; */
     text-align: center;
 }
 
-.iar-newsList .news-item .news-short .content-part .title {
+.coer-newsList .news-item .news-short .content-part .title {
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
@@ -52,38 +52,38 @@
     margin: 0 0 30px 0;
 }
 
-.iar-newsList .news-item .news-short .content-part .title a {
+.coer-newsList .news-item .news-short .content-part .title a {
     color: #000000;
 }
-.iar-newsList .news-item:hover .news-short .content-part .title a {
+.coer-newsList .news-item:hover .news-short .content-part .title a {
     color: #f4bf00;
 }
-.iar-newsList .news-item .news-short .content-part .time-sec {
+.coer-newsList .news-item .news-short .content-part .time-sec {
   display: flex;
   justify-content: space-between;
 }
-.iar-newsList .news-item .news-short .content-part .time-sec i {
+.coer-newsList .news-item .news-short .content-part .time-sec i {
     color: #f4bf00;
     font-size: 16px;
     margin-right: 4px;
 }
-.iar-newsList .news-item .news-short .content-part .time-sec .timesec {
+.coer-newsList .news-item .news-short .content-part .time-sec .timesec {
     margin-right: 15px;
     font-size: 16px;
     color: #000000;
 }
 
-.iar-newsList .news-item:hover {
+.coer-newsList .news-item:hover {
     
 }
-.iar-newsList .news-item .readon-arrow {
+.coer-newsList .news-item .readon-arrow {
   color: #222;
   padding-right: 22px;
   position: relative;
   font-weight: 700;
   font-family: 'proxima_novabold';
 }
-.iar-newsList .news-item .readon-arrow:after {
+.coer-newsList .news-item .readon-arrow:after {
   position: absolute;
   content: "\f054";
   font-family: 'Font Awesome 5 Free';
@@ -96,70 +96,70 @@
   transition: all 0.3s ease;
   font-size: 14px;
 }
-.iar-newsList .news-item:hover .readon-arrow {
+.coer-newsList .news-item:hover .readon-arrow {
   color: #f4bf00;
 }
-.iar-newsList .news-item:hover .readon-arrow:after {
+.coer-newsList .news-item:hover .readon-arrow:after {
   color: #f4bf00;
   right: 0;
 }
 
 @media only screen and (min-width:992px) and (max-width: 1199.98px) {
-    .iar-newsList .news-item .news-short .content-part{
+    .coer-newsList .news-item .news-short .content-part{
         padding: 20px;
     }
-    .iar-newsList .news-item .news-short .content-part .title{
+    .coer-newsList .news-item .news-short .content-part .title{
         font-size: 16px;
         line-height: 20px;
         margin: 0 0 15px 0;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec i{
+    .coer-newsList .news-item .news-short .content-part .time-sec i{
         font-size: 14px;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec .timesec{
+    .coer-newsList .news-item .news-short .content-part .time-sec .timesec{
         font-size: 14px;
     }
-    .iar-newsList .news-item .readon-arrow{
+    .coer-newsList .news-item .readon-arrow{
         font-size: 14px;
         line-height: 20px;
     }
 }
 @media only screen and (min-width:768px) and (max-width: 991.98px) {
-    .iar-newsList .news-item .news-short .content-part{
+    .coer-newsList .news-item .news-short .content-part{
         padding: 20px;
     }
-    .iar-newsList .news-item .news-short .content-part .title{
+    .coer-newsList .news-item .news-short .content-part .title{
         font-size: 16px;
         line-height: 20px;
         margin: 0 0 15px 0;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec i{
+    .coer-newsList .news-item .news-short .content-part .time-sec i{
         font-size: 14px;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec .timesec{
+    .coer-newsList .news-item .news-short .content-part .time-sec .timesec{
         font-size: 14px;
     }
-    .iar-newsList .news-item .readon-arrow{
+    .coer-newsList .news-item .readon-arrow{
         font-size: 14px;
         line-height: 20px;
     }
 }
 @media only screen and (max-width: 767.98px) {
-    .iar-newsList .news-item .news-short .content-part{
+    .coer-newsList .news-item .news-short .content-part{
         padding: 20px;
     }
-    .iar-newsList .news-item .news-short .content-part .title{
+    .coer-newsList .news-item .news-short .content-part .title{
         font-size: 16px;
         line-height: 20px;
         margin: 0 0 15px 0;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec i{
+    .coer-newsList .news-item .news-short .content-part .time-sec i{
         font-size: 14px;
     }
-    .iar-newsList .news-item .news-short .content-part .time-sec .timesec{
+    .coer-newsList .news-item .news-short .content-part .time-sec .timesec{
         font-size: 14px;
     }
-    .iar-newsList .news-item .readon-arrow{
+    .coer-newsList .news-item .readon-arrow{
         font-size: 14px;
         line-height: 20px;
     }

@@ -1,9 +1,9 @@
-.iar-noticeBoardFilterSearch {
+.coer-noticeBoardFilterSearch {
     padding: 80px 0;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList {}
+.coer-noticeBoardFilterSearch .noticeBoardList {}
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,11 +14,11 @@
     cursor: pointer;
     position: relative;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box:hover{
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box:hover{
     box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
     transition: all .3s ease-out;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoardHoverLink{
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoardHoverLink{
     position: absolute;
     left: 0;
     right: 0;
@@ -27,7 +27,7 @@
     width: 100%;
     height: 100%;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part {
     width: 120px;
     height: 100%;
     text-align: center;
@@ -37,30 +37,30 @@
     display: block;
 }
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part span {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part span {
     display: block;
 }
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .date {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .date {
     font-size: 30px;
     line-height: 36px;
     font-family: 'proxima_novabold';
     color: #fff;
     font-weight: 700;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .monthYear {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part .monthYear {
     text-align: center;
     font-size: 16px;
     color: #fff;
     font-family: 'proxima_novaregular';
     font-weight: 600;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
     width: calc(100% - 320px);
     margin: 0 25px;
 }
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title {
     font-size: 25px;
     letter-spacing: 0px;
     line-height: 26px;
@@ -73,11 +73,11 @@
     text-overflow: ellipsis;
     width: 100%;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title a {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title a {
     color: #222222;
     display: block;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc {
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 24px;
@@ -92,11 +92,11 @@
     margin-bottom: 0;
 }
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link {}
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link {}
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part {}
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part {}
 
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn {
     display: inline-block;
     line-height: 20px;
     font-size: 16px;
@@ -111,58 +111,58 @@
     font-family: 'proxima_novabold';
     min-width: 170px;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn:hover {
+.coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn:hover {
     background-color: #07294d;
     color: #fff;
 }
 @media only screen and (max-width: 1199px) and (min-width:992px) {
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
         font-size: 20px;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
         font-size: 18px;
     }
 }
 @media only screen and (max-width: 991px) and (min-width:768px) {
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
         font-size: 20px;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
         font-size: 18px;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
         width: 100px;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info{
         width: calc(100% - 290px);
         margin: 0 15px;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
         padding: 15px 30px 15px 30px;
     }
 }
 @media only screen and (max-width: 767.98px) {
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box{
         flex-direction: column;
         display: block;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .date-part{
         width: 100%;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info {
         width: 100%;
         margin: 15px 0;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-link .btn-part .clickHereBtn{
         padding: 15px 40px 15px 40px;
         width: 100%;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title{
         font-size: 20px;
         line-height: 24px;
         text-align: center;
     }
-    .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
+    .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .desc{
         font-size: 18px;
         line-height: 24px;
         text-align: center;

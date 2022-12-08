@@ -1,16 +1,16 @@
 /*
- Theme Name:   IAR Child Theme
+ Theme Name:   coer Child Theme
  Theme URI:    https://www.wpbeginner.com/
- Description:  A IAR child theme 
+ Description:  A coer child theme 
  Author:       WPBeginner
  Author URI:   https://www.wpbeginner.com
- Template:     iar
+ Template:     coer
  Version:      1.0.0
 */
 @font-face {
 	font-family: 'ProximaNovaRegular';
-	src: url("https://iar.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.woff") format("woff"),
-	     url("https://iar.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.ttf") format("ttf");
+	src: url("https://coer.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.woff") format("woff"),
+	     url("https://coer.developstaging.com/wp-content/themes/fonts/ProximaNovaRegular.ttf") format("ttf");
 	font-weight: normal;
 	font-style: normal;
 }

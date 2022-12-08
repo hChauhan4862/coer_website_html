@@ -2,12 +2,12 @@
 include('includes/header.php');
 include('includes/slider.php');
 ?>
-<section class="iar-aboutUniversity" id="iar-aboutUniversity">
+<section class="coer-aboutUniversity" id="coer-aboutUniversity">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5 col-md-6 col-sm-12 col-12">
 
-				<div class="iar-aboutContent"
+				<div class="coer-aboutContent"
 					style="background-image: url(images/small_shape.png); background-color: #1c335f">
 					<div class="title-inner">
 						<h2 class="title">Welcome to COER University</h2>
@@ -25,18 +25,18 @@ include('includes/slider.php');
 				</div>
 
 			</div>
-			<div class="col-lg-7 col-md-6 col-sm-12 col-12 col-about-iar">
+			<div class="col-lg-7 col-md-6 col-sm-12 col-12 col-about-coer">
 
-				<div class="iar-aboutImgYrs">
+				<div class="coer-aboutImgYrs">
 
-					<div class="row row-iar-img">
+					<div class="row row-coer-img">
 
-						<div class="col-lg-6 col-md-6 col-sm-6 col-6 col-iar-img">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-6 col-coer-img">
 							<div class="img-part">
 								<img src="images/Coer-Website.jpg" class="img-fluid" alt="" />
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-6 col-iar-img">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-6 col-coer-img">
 							<div class="img-part">
 								<img src="images/Coer-Website.jpg" class="img-fluid" alt="" />
 							</div>
@@ -44,9 +44,9 @@ include('includes/slider.php');
 
 					</div>
 
-					<div class="row row-iar-stuinfo">
+					<div class="row row-coer-stuinfo">
 
-						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-iar-stuinfo">
+						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-coer-stuinfo">
 							<div class="counterBox"
 								style="background-image: url(images/small_shape.png); background-color: #1c335f">
 								<div class="count-text">
@@ -57,7 +57,7 @@ include('includes/slider.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-iar-stuinfo">
+						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-coer-stuinfo">
 							<div class="counterBox"
 								style="background-image: url(images/small_shape.png); background-color: #1c335f">
 								<div class="count-text">
@@ -69,7 +69,7 @@ include('includes/slider.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-iar-stuinfo">
+						<div class="col-lg-4 col-md-12 col-sm-4 col-4 col-coer-stuinfo">
 							<div class="counterBox"
 								style="background-image: url(images/small_shape.png); background-color: #1c335f">
 								<div class="count-text">
@@ -92,7 +92,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-streamBox">
+<section class="coer-streamBox">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12 custom_title">
@@ -101,48 +101,48 @@ include('includes/slider.php');
 		</div>
 
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-12 iar-streamBox-col streamBoxBg-1"
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 coer-streamBox-col streamBoxBg-1"
 				style="background-image: url(images/Department-of-biotechnology-and-bioengineering.jpg);">
-				<div class="iar-streamBox-block">
-					<div class="iar-streams-part">
-						<div class="iar-streams-icons">
+				<div class="coer-streamBox-block">
+					<div class="coer-streams-part">
+						<div class="coer-streams-icons">
 							<span class="streams-icon">
 								<img src="images/01-2.png" class="img-fluid" alt="" />
 							</span>
 						</div>
-						<div class="iar-streams-title">
+						<div class="coer-streams-title">
 							<h3 class="title">Department 1</h3>
 						</div>
 					</div>
 					<a href="#" class="herf-links"></a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-12 iar-streamBox-col streamBoxBg-1"
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 coer-streamBox-col streamBoxBg-1"
 				style="background-image: url(images/Department-of-computer.jpg);">
-				<div class="iar-streamBox-block">
-					<div class="iar-streams-part">
-						<div class="iar-streams-icons">
+				<div class="coer-streamBox-block">
+					<div class="coer-streams-part">
+						<div class="coer-streams-icons">
 							<span class="streams-icon">
 								<img src="images/02-3.png" class="img-fluid" alt="" />
 							</span>
 						</div>
-						<div class="iar-streams-title">
+						<div class="coer-streams-title">
 							<h3 class="title">Department 2 </h3>
 						</div>
 					</div>
 					<a href="#" class="herf-links"></a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-12 iar-streamBox-col streamBoxBg-1"
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 coer-streamBox-col streamBoxBg-1"
 				style="background-image: url(images/Department-of-business-and-management.jpg);">
-				<div class="iar-streamBox-block">
-					<div class="iar-streams-part">
-						<div class="iar-streams-icons">
+				<div class="coer-streamBox-block">
+					<div class="coer-streams-part">
+						<div class="coer-streams-icons">
 							<span class="streams-icon">
 								<img src="images/03-1.png" class="img-fluid" alt="" />
 							</span>
 						</div>
-						<div class="iar-streams-title">
+						<div class="coer-streams-title">
 							<h3 class="title">Department 3</h3>
 						</div>
 					</div>
@@ -154,7 +154,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-courses">
+<section class="coer-courses">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12 custom_title">
@@ -162,15 +162,15 @@ include('includes/slider.php');
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/2-B-Tech.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">B.Tech.</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">B.Tech.</h2>
 						</div>
@@ -186,15 +186,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
-						<img src="images/Academic-Programs-at-IAR-1-300-x-300.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
+						<img src="images/Academic-Programs-at-coer-1-300-x-300.jpg" class="img-fluid" alt="" />
+						<div class="coer-courses-title">
 							<h2 class="title">MCA</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">MCA</h2>
 						</div>
@@ -210,15 +210,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/4-BCA.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">BCA</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">BCA</h2>
 						</div>
@@ -234,15 +234,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/6-M-Tech.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">M.Tech.</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">M.Tech.</h2>
 						</div>
@@ -258,15 +258,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/bsc-2.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">B.Sc. Honors</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">B.Sc. Honors</h2>
 						</div>
@@ -282,15 +282,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/2-B-Tech.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">B.Tech.</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">B.Tech.</h2>
 						</div>
@@ -306,15 +306,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
-						<img src="images/Academic-Programs-at-IAR-1-300-x-300.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
+						<img src="images/Academic-Programs-at-coer-1-300-x-300.jpg" class="img-fluid" alt="" />
+						<div class="coer-courses-title">
 							<h2 class="title">MCA</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">MCA</h2>
 						</div>
@@ -330,15 +330,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/4-BCA.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">BCA</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">BCA</h2>
 						</div>
@@ -354,15 +354,15 @@ include('includes/slider.php');
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-6 iar-courses-col">
-				<div class="iar-courses-block">
-					<div class="iar-courses-img">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-6 coer-courses-col">
+				<div class="coer-courses-block">
+					<div class="coer-courses-img">
 						<img src="images/6-M-Tech.jpg" class="img-fluid" alt="" />
-						<div class="iar-courses-title">
+						<div class="coer-courses-title">
 							<h2 class="title">M.Tech.</h2>
 						</div>
 					</div>
-					<div class="iar-courses-text">
+					<div class="coer-courses-text">
 						<div class="courses-title">
 							<h2 class="title">M.Tech.</h2>
 						</div>
@@ -383,7 +383,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-3dBox">
+<section class="coer-3dBox">
 	<div class="container">
 
 		<div class="row">
@@ -394,24 +394,24 @@ include('includes/slider.php');
 
 		<div class="row g-3">
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/01-1.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Academic Excellence</span>
+								<span class="coer-3d-header">Academic Excellence</span>
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
-							style="background-image: url(images/Academic-Programs-at-IAR-1.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Academic Excellence</span>
-									<span class="iar-3d-description">
+						<a class="coer-3d-item coer-3d-item-back" href="#"
+							style="background-image: url(images/Academic-Programs-at-coer-1.jpg)">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Academic Excellence</span>
+									<span class="coer-3d-description">
 										<p>We go beyond conformity to inspire students and scholars to achieve
 											excellence in all that they do.</p>
 									</span>
@@ -423,25 +423,25 @@ include('includes/slider.php');
 
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/02-1.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Faculty</span>
+								<span class="coer-3d-header">Faculty</span>
 
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
+						<a class="coer-3d-item coer-3d-item-back" href="#"
 							style="background-image: url(images/Faculty.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Faculty</span>
-									<span class="iar-3d-description">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Faculty</span>
+									<span class="coer-3d-description">
 										<p>We have best faculity in each and every subject.</p>
 									</span>
 								</span>
@@ -452,24 +452,24 @@ include('includes/slider.php');
 
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/04.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Infrastructure & Facilities </span>
+								<span class="coer-3d-header">Infrastructure & Facilities </span>
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
+						<a class="coer-3d-item coer-3d-item-back" href="#"
 							style="background-image: url(images/infrastructure.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Infrastructure & Facilities </span>
-									<span class="iar-3d-description">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Infrastructure & Facilities </span>
+									<span class="coer-3d-description">
 										<p>State of the Art Labs, In Campus Hostel, Canteen, Gym, Library, Playgrounds
 											and lot more</p>
 									</span>
@@ -481,24 +481,24 @@ include('includes/slider.php');
 
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/06.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Research & Innovation</span>
+								<span class="coer-3d-header">Research & Innovation</span>
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
+						<a class="coer-3d-item coer-3d-item-back" href="#"
 							style="background-image: url(images/Research.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Research & Innovation</span>
-									<span class="iar-3d-description">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Research & Innovation</span>
+									<span class="coer-3d-description">
 										<p>At COER, research is regarded as one of the most important activities, as it
 											will lead to new path-breaking evolutions enabling progress in all aspects
 											ultimately benefiting the overall development of the nation.</p>
@@ -511,24 +511,24 @@ include('includes/slider.php');
 
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/03.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Placement & Startup </span>
+								<span class="coer-3d-header">Placement & Startup </span>
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
+						<a class="coer-3d-item coer-3d-item-back" href="#"
 							style="background-image: url(images/Placement.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Placement & Startup </span>
-									<span class="iar-3d-description">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Placement & Startup </span>
+									<span class="coer-3d-description">
 										<p>Placement Cell at COER provides guidance and all the assistance to the
 											students in order toachieve their career goals.</p>
 									</span>
@@ -540,24 +540,24 @@ include('includes/slider.php');
 
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 iar-3dBox-col">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 coer-3dBox-col">
 
-				<div class="iar-3d-item-wrapper">
-					<div class="iar-3d-item-inner">
-						<a class="iar-3d-item iar-3d-item-front" href="#" style="background-color: #1c335f;">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-icon icon">
+				<div class="coer-3d-item-wrapper">
+					<div class="coer-3d-item-inner">
+						<a class="coer-3d-item coer-3d-item-front" href="#" style="background-color: #1c335f;">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-icon icon">
 									<img src="images/05.png" class="img-fluid" alt="" />
 								</span>
-								<span class="iar-3d-header">Associations & Clubs</span>
+								<span class="coer-3d-header">Associations & Clubs</span>
 							</span>
 						</a>
-						<a class="iar-3d-item iar-3d-item-back" href="#"
+						<a class="coer-3d-item coer-3d-item-back" href="#"
 							style="background-image: url(images/Associations-clubs.jpg)">
-							<span class="iar-3d-item-inner-wrapper">
-								<span class="iar-3d-item-inner-info">
-									<span class="iar-3d-header">Associations & Clubs</span> <span
-										class="iar-3d-description">
+							<span class="coer-3d-item-inner-wrapper">
+								<span class="coer-3d-item-inner-info">
+									<span class="coer-3d-header">Associations & Clubs</span> <span
+										class="coer-3d-description">
 										<p>We have 11 Clubs which helps students to gain knowledge, skills and
 											experience in leadership, communication, problem-solving, management,
 											finance, presentation and public speaking.</p>
@@ -574,14 +574,14 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-admissionOpen" id="iar-admissionOpen">
+<section class="coer-admissionOpen" id="coer-admissionOpen">
 	<div class="container-fluid">
 
 		<div class="row">
 
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 iar-admissionBg-col">
-				<div class="iar-admissionBg" style="background-image: url(images/video-bg.jpg)">
-					<div class="iar-admissionVideo">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 coer-admissionBg-col">
+				<div class="coer-admissionBg" style="background-image: url(images/video-bg.jpg)">
+					<div class="coer-admissionVideo">
 						<div class="icon-area">
 							<a href="https://www.youtube.com/watch?v=tK276-879NA"
 								class="popup-videos has-overlay has-video-popup tansform-none"><i
@@ -591,8 +591,8 @@ include('includes/slider.php');
 				</div>
 			</div>
 
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 iar-admissionOpenContent-col">
-				<div class="iar-admissionOpenContent">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 coer-admissionOpenContent-col">
+				<div class="coer-admissionOpenContent">
 					<div class="title-inner">
 						<h2 class="title">Admission Open for 2022</h2>
 					</div>
@@ -615,7 +615,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-latestNewsEventNotice" id="iar-latestNewsEventNotice">
+<section class="coer-latestNewsEventNotice" id="coer-latestNewsEventNotice">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-12 col-sm-12 col-12 desktopView">
@@ -787,10 +787,10 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-newsletter" id="iar-newsletter">
+<section class="coer-newsletter" id="coer-newsletter">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-12 iar-stayConnect-col">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 coer-stayConnect-col">
 				<div class="sec-title">
 					<div class="title-icon social-icons-title">
 						<h2 class="title">Stay Connected With us</h2>
@@ -809,7 +809,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-latestEvents" id="iar-latestEvents">
+<section class="coer-latestEvents" id="coer-latestEvents">
 	<div class="container">
 		<div class="row">
 
@@ -831,7 +831,7 @@ include('includes/slider.php');
 </section>
 
 
-<section class="iar-tabIconContent" id="iar-tabIconContent">
+<section class="coer-tabIconContent" id="coer-tabIconContent">
 	<div class="container">
 		<div class="row">
 
@@ -857,7 +857,7 @@ include('includes/slider.php');
 			<div class="tab-content">
 				<div class="tab-pane active" id="campus-life" role="tabpanel">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 co-12 iar-tabContent-col">
+						<div class="col-lg-6 col-md-6 col-sm-12 co-12 coer-tabContent-col">
 							<div class="title-inner">
 								<h2 class="title">Campus Life</h2>
 							</div>
@@ -884,7 +884,7 @@ include('includes/slider.php');
 
 				<div class="tab-pane " id="infrastructure-facilities" role="tabpanel">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 co-12 iar-tabContent-col">
+						<div class="col-lg-6 col-md-6 col-sm-12 co-12 coer-tabContent-col">
 							<div class="title-inner">
 								<h2 class="title">Infrastructure & Facilities</h2>
 							</div>
@@ -930,7 +930,7 @@ include('includes/slider.php');
 				</div>
 				<div class="tab-pane " id="start-up" role="tabpanel">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 co-12 iar-tabContent-col">
+						<div class="col-lg-6 col-md-6 col-sm-12 co-12 coer-tabContent-col">
 							<div class="title-inner">
 								<h2 class="title">Start up</h2>
 							</div>

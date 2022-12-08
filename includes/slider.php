@@ -1,4 +1,4 @@
-<section class="slider-banner-iar">
+<section class="slider-banner-coer">
     <div class="slick_slider">
         <div class="single-slide-wrap slide-bg-1">
             <div class="container-fluid p-0">
@@ -19,14 +19,14 @@
                                 <span>ADMISSION OPEN 2022</span>
                             </div>
 
-                            <div class="main-title-iar">
-                                <h2>Start Your Journey With IAR 4</h2>
-                                <p>The Institute Of Advanced Research (IAR) Is an Innovation modern university,
+                            <div class="main-title-coer">
+                                <h2>Start Your Journey With coer 4</h2>
+                                <p>The Institute Of Advanced Research (coer) Is an Innovation modern university,
                                     which offers professionally focused undergraduate, postgraduate and research
                                     degree programs.</p>
                             </div>
 
-                            <div class="btn-iar-banner slider-btn">
+                            <div class="btn-coer-banner slider-btn">
                                 <a href="#"> Read More </a>
                             </div>
                         </div>
@@ -56,12 +56,12 @@
                                 <span></span>
                             </div>
 
-                            <div class="main-title-iar">
-                                <h2>Outstanding IAR Student Start-Up</h2>
+                            <div class="main-title-coer">
+                                <h2>Outstanding coer Student Start-Up</h2>
                                 <p></p>
                             </div>
 
-                            <div class="btn-iar-banner slider-btn">
+                            <div class="btn-coer-banner slider-btn">
                                 <a href="#"> Read More </a>
                             </div>
                         </div>

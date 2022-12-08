@@ -1,4 +1,4 @@
-<footer class="iar-footer">
+<footer class="coer-footer">
 	<div class="footer-top">
 		<div class="container">
 			<div class="row">
@@ -254,7 +254,7 @@
 <script src="js/tabs.min.js" id="jquery-ui-tabs-js"></script>
 <script id="cffscripts-js-extra">
 	var cffOptions = {
-		"placeholder": "https:\/\/iar.ac.in\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/placeholder.png"
+		"placeholder": "https:\/\/coer.ac.in\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/placeholder.png"
 	};
 </script>
 <script src="js/cff-scripts.js" id="cffscripts-js"></script>
