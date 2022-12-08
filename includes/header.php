@@ -161,7 +161,7 @@
                                 class="dropdown-toggle nav-link">Students Support</a>
                             <ul class="dropdown-menu">
                                 <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">Placement Cell</a></li> -->
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Startup and
+                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">COER Startup and
                                         Entrepreneurship Cell</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Learning</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees & Scholarships</a>
