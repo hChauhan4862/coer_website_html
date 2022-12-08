@@ -38,7 +38,7 @@
 
     <section class="top-link-header">
 
-        <header id="iar-header" class="iar-header">
+        <header id="coer-header" class="coer-header">
 
             <div class="header_social">
                 <div class="container-fluid">
@@ -162,7 +162,7 @@
                                 class="dropdown-toggle nav-link">Students Support</a>
                             <ul class="dropdown-menu">
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Placement Cell</a></li>
-                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Startup and
+                                <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">coer Startup and
                                         Entrepreneurship Cell</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Learning</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Fees & Scholarships</a>
@@ -182,7 +182,7 @@
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Events and Activities</a></li>
                                 <!-- <li class="menu-item nav-item"><a href="#" class="dropdown-item">News and
                                         Achievements</a></li>
-                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">IAR Mega Events</a>
+                                <li class="menu-item nav-item"><a href="#" class="dropdown-item">coer Mega Events</a>
                                 </li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Student Clubs</a></li>
                                 <li class="menu-item nav-item"><a href="#" class="dropdown-item">Sports</a></li>

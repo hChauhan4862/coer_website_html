@@ -1,9 +1,9 @@
 /* Start Footer CSS */
-.iar-footer {
+.coer-footer {
   background-color: var(--primary-blue);
 }
 
-.iar-footer .widget {
+.coer-footer .widget {
   margin: 0 0 30px;
   overflow: hidden;
 }
@@ -124,16 +124,16 @@
   text-align: left;
 }
 
-.iar-footer .fa-ul li {
+.coer-footer .fa-ul li {
   padding: 0px 0px 15px 45px;
 }
 
-.iar-footer .fa-ul li i {
+.coer-footer .fa-ul li i {
   color: var(--primary-yellow);
   font-size: 20px !important;
 }
 
-.iar-footer .fa-ul li i:before {
+.coer-footer .fa-ul li i:before {
   position: absolute;
   left: 0;
   margin-left: 0;
@@ -141,69 +141,69 @@
   top: 8px;
 }
 
-.iar-footer .fa-ul li i.fa-whatsapp {
+.coer-footer .fa-ul li i.fa-whatsapp {
   position: absolute;
   left: 0;
   margin-left: 0;
 }
 
-.iar-footer .fa-ul li i.fa-whatsapp:before {
+.coer-footer .fa-ul li i.fa-whatsapp:before {
   font-size: 23px;
 }
 
-.iar-footer .fa-ul li a {
+.coer-footer .fa-ul li a {
   color: var(--primary-white);
 }
 
-.iar-footer .fa-ul li a:hover {
+.coer-footer .fa-ul li a:hover {
   color: var(--primary-yellow);
 }
 
-.iar-footer .footer-logo-wrap {
+.coer-footer .footer-logo-wrap {
   padding-bottom: 32px;
   padding-top: 8px;
 }
 
-.iar-footer .recent-post-widget .post-item .post-desc h5 {
+.coer-footer .recent-post-widget .post-item .post-desc h5 {
   line-height: 24px;
 }
 
-.iar-footer .recent-post-widget {
+.coer-footer .recent-post-widget {
   margin-bottom: 0;
   margin-top: 49px;
 }
 
-.iar-footer .recent-post-widget .show-featured {
+.coer-footer .recent-post-widget .show-featured {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-img img {
+.coer-footer .recent-post-widget .show-featured .post-img img {
   border-radius: 4px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-desc {
+.coer-footer .recent-post-widget .show-featured .post-desc {
   line-height: 22px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-desc a {
+.coer-footer .recent-post-widget .show-featured .post-desc a {
   letter-spacing: 0.1px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-desc i {
+.coer-footer .recent-post-widget .show-featured .post-desc i {
   margin-right: 3px;
   position: relative;
   font-size: 14px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-desc span {
+.coer-footer .recent-post-widget .show-featured .post-desc span {
   color: #e0e0e0;
   display: block;
   margin-top: 8px;
   font-size: 13.5px;
 }
 
-.iar-footer .recent-post-widget .show-featured .post-item {
+.coer-footer .recent-post-widget .show-featured .post-item {
   overflow: hidden;
 }
 
@@ -217,7 +217,7 @@
   overflow: hidden;
 }
 
-.iar-footer .fa-ul li.address1 span {
+.coer-footer .fa-ul li.address1 span {
   color: var(--primary-white);
 }
 
@@ -275,7 +275,7 @@
   color: #e0e0e0;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul {
+.coer-footer .footer-bottom .widget_nav_menu ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -283,30 +283,30 @@
   justify-content: flex-end;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li a {
+.coer-footer .footer-bottom .widget_nav_menu ul li a {
   padding: 0px 12px 0 17px !important;
   color: #e0e0e0;
   position: relative;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li a:hover {
+.coer-footer .footer-bottom .widget_nav_menu ul li a:hover {
   color: var(--primary-yellow);
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li a:before {
+.coer-footer .footer-bottom .widget_nav_menu ul li a:before {
   border-radius: 50%;
   top: 11px;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li ul {
+.coer-footer .footer-bottom .widget_nav_menu ul li ul {
   display: none;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li:first-child a:before {
+.coer-footer .footer-bottom .widget_nav_menu ul li:first-child a:before {
   display: none !important;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li:last-child a {
+.coer-footer .footer-bottom .widget_nav_menu ul li:last-child a {
   padding-right: 0px !important;
 }
 
@@ -314,11 +314,11 @@
   margin-bottom: 0;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li:first-child a:before {
+.coer-footer .footer-bottom .widget_nav_menu ul li:first-child a:before {
   display: none;
 }
 
-.iar-footer .footer-bottom .widget_nav_menu ul li a:before {
+.coer-footer .footer-bottom .widget_nav_menu ul li a:before {
   content: "";
   position: absolute;
   font-size: 18px;
@@ -331,7 +331,7 @@
   background-color: var(--primary-yellow);
 }
 
-.iar-footer .widget ul {
+.coer-footer .widget ul {
   margin: 0;
 }
 

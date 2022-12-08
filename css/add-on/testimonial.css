@@ -1,12 +1,12 @@
-.iar-testimonial-all {
+.coer-testimonial-all {
     padding: 130px 0 85px;
 }
 
-.iar-testimonial-all-row {
+.coer-testimonial-all-row {
     row-gap: 80px;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card {
+.coer-testimonial-all .coer-testimonial-all-col .card {
     position: relative;
     background: #ccc;
     text-align: center;
@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card:before {
+.coer-testimonial-all .coer-testimonial-all-col .card:before {
     content: '';
     background-image: url('../../images/testimonial/testimonialBlueShape-before.png');
     width: 121px;
@@ -38,7 +38,7 @@
     background-position: center;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card:after {
+.coer-testimonial-all .coer-testimonial-all-col .card:after {
     content: '';
     background-image: url('../../images/testimonial/testimonialBlueShape-after.png');
     width: 51px;
@@ -51,7 +51,7 @@
     background-position: center;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card:before {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card:before {
     content: '';
     background-image: url('../../images/testimonial/testimonialYellowShape-before.png');
     width: 121px;
@@ -64,7 +64,7 @@
     background-position: center;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card:after {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card:after {
     content: '';
     background-image: url('../../images/testimonial/testimonialYellowShape-after.png');
     width: 51px;
@@ -78,7 +78,7 @@
 }
 
 
-.iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+.coer-testimonial-all .coer-testimonial-all-col .card .card-body {
     padding: 60px 30px;
     margin: auto;
     display: flex;
@@ -87,16 +87,16 @@
     justify-content: flex-end;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card {
     background-color: #fffcf3;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .card-body h6 {
+.coer-testimonial-all .coer-testimonial-all-col .card .card-body h6 {
     font-style: italic;
     font-weight: 600;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .card-body p {
+.coer-testimonial-all .coer-testimonial-all-col .card .card-body p {
     font-style: italic;
     margin: 0;
     font-family: 'proxima_novaregular';
@@ -109,7 +109,7 @@
     line-height: 20px;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .dot {
+.coer-testimonial-all .coer-testimonial-all-col .card .dot {
     width: 30px;
     height: 30px;
     background: var(--primary-blue);
@@ -126,7 +126,7 @@
     align-items: center;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .dot .readMoreLink {
+.coer-testimonial-all .coer-testimonial-all-col .card .dot .readMoreLink {
     height: 100%;
     width: 100%;
     text-align: center;
@@ -135,17 +135,17 @@
     align-items: center;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .dot .readMoreLink i {
+.coer-testimonial-all .coer-testimonial-all-col .card .dot .readMoreLink i {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card .dot {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card .dot {
     background: var(--primary-yellow);
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card img.card-img-top {
+.coer-testimonial-all .coer-testimonial-all-col .card img.card-img-top {
     position: absolute;
     width: 110px;
     height: auto;
@@ -159,13 +159,13 @@
     border: 3px solid var(--primary-white);
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .card-body .user-title {
+.coer-testimonial-all .coer-testimonial-all-col .card .card-body .user-title {
     margin-top: 0;
     font-family: var(--font-proxima-alt-bold);
     font-size: 20px;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .talkbubble {
+.coer-testimonial-all .coer-testimonial-all-col .card .talkbubble {
     width: 60px;
     height: 40px;
     background: var(--primary-blue);
@@ -183,7 +183,7 @@
     align-items: center
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .talkbubble:before {
+.coer-testimonial-all .coer-testimonial-all-col .card .talkbubble:before {
     content: "";
     position: absolute;
     top: 27px;
@@ -196,21 +196,21 @@
     z-index: 0;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card .talkbubble {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card .talkbubble {
     background: var(--primary-yellow);
 }
 
-.iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card .talkbubble::before {
+.coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card .talkbubble::before {
     border-right: 34px solid var(--primary-yellow);
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .talkbubble i {
+.coer-testimonial-all .coer-testimonial-all-col .card .talkbubble i {
     z-index: 1;
     font-size: 20px;
     color: var(--primary-white);
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card .testimonialHoverLink {
+.coer-testimonial-all .coer-testimonial-all-col .card .testimonialHoverLink {
     position: absolute;
     left: 0;
     right: 0;
@@ -220,115 +220,115 @@
     height: 100%;
 }
 
-.iar-testimonial-all .iar-testimonial-all-col .card:hover .dot {
+.coer-testimonial-all .coer-testimonial-all-col .card:hover .dot {
     background: #762246;
 }
 
 /* responsive start */
 @media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body p {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body p {
         -webkit-line-clamp: 5;
     }
 }
 
 @media only screen and (max-width: 1199.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble:before {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble:before {
         border-top: 7px solid transparent;
         border-right: 20px solid var(--primary-blue);
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col:nth-child(2n) .card .talkbubble::before {
+    .coer-testimonial-all .coer-testimonial-all-col:nth-child(2n) .card .talkbubble::before {
         border-right: 20px solid var(--primary-yellow);
     }
 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body p {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body p {
         -webkit-line-clamp: 5;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body {
         padding: 60px 30px 30px;
     }
 
-    .iar-testimonial-all>.container {
+    .coer-testimonial-all>.container {
         max-width: 100%;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card img.card-img-top {
+    .coer-testimonial-all .coer-testimonial-all-col .card img.card-img-top {
         width: 90px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble {
         width: 50px;
         height: 30px;
         top: -20px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble i {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble i {
         font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card img.card-img-top {
+    .coer-testimonial-all .coer-testimonial-all-col .card img.card-img-top {
         width: 95px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body {
         padding: 60px 30px 30px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble {
         width: 50px;
         height: 30px;
         top: -20px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble i {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble i {
         font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card img.card-img-top {
+    .coer-testimonial-all .coer-testimonial-all-col .card img.card-img-top {
         width: 75px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body .user-title {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body .user-title {
         font-size: 16px;
         margin: 0;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body h6 {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body h6 {
         font-size: 14px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body {
         padding: 60px 30px 30px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body p {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body p {
         font-size: 16px;
         line-height: 18px;
         -webkit-line-clamp: 4;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble {
         width: 50px;
         height: 30px;
         top: -20px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble i {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble i {
         font-size: 16px;
     }
 }
 
 
 @media only screen and (max-width: 575.98px) {
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body {
         padding: 60px 30px 30px;
     }
 }
@@ -336,34 +336,34 @@
 
 @media only screen and (max-width: 479.98px) {
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body {
         justify-content: center;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card img.card-img-top {
+    .coer-testimonial-all .coer-testimonial-all-col .card img.card-img-top {
         width: 80px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble {
         width: 50px;
         height: 30px;
         top: -20px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .talkbubble i {
+    .coer-testimonial-all .coer-testimonial-all-col .card .talkbubble i {
         font-size: 16px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body .user-title {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body .user-title {
         font-size: 18px;
         margin: 0;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body h6 {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body h6 {
         font-size: 14px;
     }
 
-    .iar-testimonial-all .iar-testimonial-all-col .card .card-body p {
+    .coer-testimonial-all .coer-testimonial-all-col .card .card-body p {
         font-size: 16px;
 
     }

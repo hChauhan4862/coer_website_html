@@ -1,11 +1,11 @@
-.iar-coursesCategories {
+.coer-coursesCategories {
     padding: 80px 0;
 }
-.iar-coursesCategories .mb-30{
+.coer-coursesCategories .mb-30{
     margin-bottom: 30px;
 }
 
-.iar-coursesCategories .categories-item {
+.coer-coursesCategories .categories-item {
     border: 1px solid #dfe9eb;
     background: #ffffff;
     overflow: hidden;
@@ -24,10 +24,10 @@
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
-.iar-coursesCategories .categories-item:hover {
+.coer-coursesCategories .categories-item:hover {
     border: 1px solid #f7cf40;
 }
-.iar-coursesCategories .categories-item:before {
+.coer-coursesCategories .categories-item:before {
     content: '';
     display: block;
     position: absolute;
@@ -47,7 +47,7 @@
     transition: all 0.3s ease-in;
 }
 
-.iar-coursesCategories .categories-item:hover:before {
+.coer-coursesCategories .categories-item:hover:before {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -55,7 +55,7 @@
     visibility: visible;
 }
 
-.iar-coursesCategories .categories-item .icon-part {
+.coer-coursesCategories .categories-item .icon-part {
     float: left;
     margin-right: 25px;
     width: 70px;
@@ -67,19 +67,19 @@
     transition: all 0.3s ease;
 	z-index: 1;
 }
-.iar-coursesCategories .categories-item:hover .icon-part {
+.coer-coursesCategories .categories-item:hover .icon-part {
     background: #1c335f;
 }
-.iar-coursesCategories .categories-item .icon-part img {
+.coer-coursesCategories .categories-item .icon-part img {
     -webkit-transition: all 0.4s ease;
     transform: scale(1);
 	padding: 10px;
 }
-.iar-coursesCategories .categories-item .content-part {
+.coer-coursesCategories .categories-item .content-part {
     width: calc(100% - 100px);
 	z-index: 1;
 }
-.iar-coursesCategories .categories-item .content-part .title {
+.coer-coursesCategories .categories-item .content-part .title {
     color: #111111;
     margin-bottom: 5px;
     font-size: 20px;
@@ -88,10 +88,10 @@
     margin: 0 0 0;
     line-height: 1.2;
 }
-.iar-coursesCategories .categories-item:hover .content-part .title{
+.coer-coursesCategories .categories-item:hover .content-part .title{
 	color: #1c335f;
 }
-.iar-coursesCategories .categories-item .courses {
+.coer-coursesCategories .categories-item .courses {
     color: #505050;
     font-size: 15px;
     line-height: 26px;
@@ -99,17 +99,17 @@
 	margin-top: 26px;
 }
 
-.iar-3dbackfrontBox .iar-3d-item-inner{
+.coer-3dbackfrontBox .coer-3d-item-inner{
 	min-height: 250px;
 }
-.iar-3dbackfrontBox .iar-3d-item-back::before {
+.coer-3dbackfrontBox .coer-3d-item-back::before {
     display: none;
 }
-.iar-3dbackfrontBox .iar-3d-item-front {
+.coer-3dbackfrontBox .coer-3d-item-front {
     position: relative;
 	background-color: transparent;
 }
-.iar-3dbackfrontBox .iar-3d-item-front:before {
+.coer-3dbackfrontBox .coer-3d-item-front:before {
 	display: none;
     content: '';
     position: absolute;
@@ -123,17 +123,17 @@
     background-clip: border-box;
 }
 
-.iar-aboutImgContent {
+.coer-aboutImgContent {
     padding: 80px 0;
 }
 
-.iar-aboutImgContent .content-part p {
+.coer-aboutImgContent .content-part p {
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
     color: #000;
 }
-.iar-newsList .news-item .news-short .content-part .categories{
+.coer-newsList .news-item .news-short .content-part .categories{
     display: inline-block;
     padding: 0 15px;
     height: 40px;
@@ -148,7 +148,7 @@
     right: 15px;
     box-shadow: 0 0 20px rgb(0 0 0 / 40%);
 }
-.iar-newsList .news-item .news-short .content-part .categories .categories-link{
+.coer-newsList .news-item .news-short .content-part .categories .categories-link{
     color: #ffffff;
 }
 
@@ -167,55 +167,55 @@
 .single-departments .faculty-list-department .faculty-list {
     padding: 0px;
 }
-.single-departments .iar-latestEvents {
+.single-departments .coer-latestEvents {
     padding: 40px 0px;
 }
-.single-departments .iar-aboutImgContent {
+.single-departments .coer-aboutImgContent {
     padding: 15px 0 20px;
 }
-.single-departments .iar-coursesCategories {
+.single-departments .coer-coursesCategories {
     padding: 20px 0px 0px;
 }
 .single-departments .faculty-list .faculty-profile-row {
     padding-top: 10px;
 }
-.single-departments .iar-3dBox {
+.single-departments .coer-3dBox {
     padding: 40px 0;
 }
-.single-departments .iar-testimonial {
+.single-departments .coer-testimonial {
     padding: 5px 0 20px;
 }
-.single-departments .iar-latestEvents .title-inner.custom_title {
+.single-departments .coer-latestEvents .title-inner.custom_title {
     margin: 0;
 }
 
 
 /* 02-02-2022 end */
 /* start 03-02-2022 */
-.single-departments .iar-coursesCategories .courseInfoCol, 
-.iar-3dbackfrontBox .iar-3dBox-col,
+.single-departments .coer-coursesCategories .courseInfoCol, 
+.coer-3dbackfrontBox .coer-3dBox-col,
 .briefInfoFullContent .content-part p,
 .hodMessageFullContent .content-part p,
-.iar-noticeBoardFilterSearch .noticeBoardList .importantNotesList,
+.coer-noticeBoardFilterSearch .noticeBoardList .importantNotesList,
 .single-departments .faculty-list .faculty-profile-row .faculty-profile-col{
   display: none;
 }
-.single-departments .iar-coursesCategories .load-more-btn,
-.single-departments .iar-aboutImgContent .load-more-btn,
-.iar-3dbackfrontBox .load-more-btn,
+.single-departments .coer-coursesCategories .load-more-btn,
+.single-departments .coer-aboutImgContent .load-more-btn,
+.coer-3dbackfrontBox .load-more-btn,
 .single-departments .faculty-list .faculty-profile-row .f-load-more-btn{
 	text-align: center;
 	display: block;
 }
-.iar-noticeBoardFilterSearch .noticeBoardList .load-more-btn{
+.coer-noticeBoardFilterSearch .noticeBoardList .load-more-btn{
 	text-align: center;
 	display: block;
 	margin-top: 30px;
 }
-.iar-coursesCategories .load-more-btn .load-more,
-.iar-3dbackfrontBox .load-more-btn .load-more,
-.single-departments .iar-aboutImgContent .load-more-btn .load-more,
-.iar-noticeBoardFilterSearch .noticeBoardList .load-more-btn .load-more,
+.coer-coursesCategories .load-more-btn .load-more,
+.coer-3dbackfrontBox .load-more-btn .load-more,
+.single-departments .coer-aboutImgContent .load-more-btn .load-more,
+.coer-noticeBoardFilterSearch .noticeBoardList .load-more-btn .load-more,
 .single-departments .faculty-list .faculty-profile-row .f-load-more-btn .f-load-more{
 	line-height: 1;
     font-size: 16px;
@@ -234,21 +234,21 @@
 /* End 03-02-2022 */
 /* 04-02-2022 start */
 
-.iar-latestNewsEventNotice .instagram-block {
+.coer-latestNewsEventNotice .instagram-block {
     overflow-y: scroll;
     height: calc(100vh - 150px);
 }
 
-.iar-latestNewsEventNotice .facebook-block {
+.coer-latestNewsEventNotice .facebook-block {
     overflow-y: scroll;
     height: calc(100vh - 150px);
 }
 
-.iar-latestNewsEventNotice .linkedin-block {
+.coer-latestNewsEventNotice .linkedin-block {
     overflow-y: scroll;
     height: calc(100vh - 150px);
 }
-.iar-latestNewsEventNotice {
+.coer-latestNewsEventNotice {
     padding: 40px 0;
 }
 .viewAll {
@@ -276,13 +276,13 @@
 .faculty-list-department {
     padding: 40px 0 0;
 }
-.single-departments .iar-blogList {
+.single-departments .coer-blogList {
     padding: 40px 0;
 }
-.single-departments .iar-noticeBoardFilterSearch {
+.single-departments .coer-noticeBoardFilterSearch {
     padding: 40px 0 0;
 }
-.iar-socialMediaBox .title-inner {
+.coer-socialMediaBox .title-inner {
     display: block;
     text-align: center;
 }
@@ -293,7 +293,7 @@
 }
 /* 08-02-2022 end kp */
 /* 15-02-2022 start kp */
-.single-departments .iar-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title {
+.single-departments .coer-noticeBoardFilterSearch .noticeBoardList .noticeBoardList-box .noticeBoard-info .title {
     font-size: 20px;
 }
 /* 15-02-2022 end kp */
@@ -304,13 +304,13 @@
 	
 }
 @media only screen and (max-width: 767.98px) {
-	.iar-coursesCategories {
+	.coer-coursesCategories {
 		padding: 40px 0;
 	}
-	.iar-coursesCategories .categories-item{
+	.coer-coursesCategories .categories-item{
 		padding: 20px;
 	}
-	.iar-coursesCategories .categories-item .content-part .title{
+	.coer-coursesCategories .categories-item .content-part .title{
 		font-size: 20px;
 	}
 	.ragging_video iframe {
@@ -468,8 +468,8 @@ section.department_sections a:hover {
 #menu-copyright-menu.newMenu li a:hover {
     color: #f4bf00;
 }
-.iar-newsList .news-item,
-.iar-eventList .event-item {
+.coer-newsList .news-item,
+.coer-eventList .event-item {
 	border: 1px solid #000000;
     border-radius: 8px;
 }

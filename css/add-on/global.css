@@ -195,7 +195,7 @@ button:focus,
   color: var(--primary-blue);
 }
 
-.iar-header-sticky {
+.coer-header-sticky {
   top: 0;
   z-index: 1000;
   position: fixed;
@@ -833,7 +833,7 @@ section.custom-banner-mtb {
 }
 
 /* Start Contact Us CSS */
-/* .iar-contact-box>.elementor-element-populated {
+/* .coer-contact-box>.elementor-element-populated {
     background-color: #F9F8F8;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 4px 10px 0px rgb(23 31 50 / 13%);
@@ -953,15 +953,15 @@ section.custom-banner-mtb {
     font-weight: 700;
     line-height: 1.5em;
 }
-.iar-getInTouch-form {
+.coer-getInTouch-form {
 	background-color: #F9F8F8;
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 	margin: 0px 15px 0px 0px;
 	padding: 20px 40px 20px 40px;
 }
-.iar-getInTouch-form {background-color: #F9F8F8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin: 0px 15px 0px 0px;padding: 20px 40px 20px 40px;}
+.coer-getInTouch-form {background-color: #F9F8F8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin: 0px 15px 0px 0px;padding: 20px 40px 20px 40px;}
 
-.iar-contact-form .wpcf7-form-control:not(.wpcf7-submit) {
+.coer-contact-form .wpcf7-form-control:not(.wpcf7-submit) {
     margin-bottom: 15px !important;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
@@ -969,7 +969,7 @@ section.custom-banner-mtb {
     box-shadow: 0px 28px 50px 0px rgb(0 0 0 / 5%) !important;
 }
 
-.iar-contact-form input[type="text"], .iar-contact-form input[type="number"], .iar-contact-form input[type="password"], .iar-contact-form textarea, .iar-contact-form input[type="email"] {
+.coer-contact-form input[type="text"], .coer-contact-form input[type="number"], .coer-contact-form input[type="password"], .coer-contact-form textarea, .coer-contact-form input[type="email"] {
     color: #363636;
     width: 100%;
     max-width: 100%;
@@ -978,12 +978,12 @@ section.custom-banner-mtb {
     outline: none;
 }
 
-.iar-contact-form form input, .iar-contact-form form textarea {
+.coer-contact-form form input, .coer-contact-form form textarea {
     padding: 10px;
     border: 1px solid #eaeaea;
 }
 
-.iar-contact-form input, .iar-contact-form textarea, .iar-contact-form select {
+.coer-contact-form input, .coer-contact-form textarea, .coer-contact-form select {
     width: 100%;
     border-radius: 3px;
     border: 1px solid #ffffff;
@@ -992,23 +992,23 @@ section.custom-banner-mtb {
     padding: 10px 18px;
 }
 
-.iar-contact-form label {
+.coer-contact-form label {
     width: 100%;
 }
-.iar-contact-form textarea {
+.coer-contact-form textarea {
     height: 88px;
     display: inherit;
     outline: none;
 }
-.iar-contact-form form p {
+.coer-contact-form form p {
     margin-bottom: 0 !important;
 }
-.iar-contact-form input[type=submit]{
+.coer-contact-form input[type=submit]{
 	margin-bottom: 0;
 	background-color: #f4bf00;
 	color: #1c335f;
 }
-.iar-contact-form input[type=submit]:hover{
+.coer-contact-form input[type=submit]:hover{
 	background-color: #1c335f;
 	color: #fff;
 }

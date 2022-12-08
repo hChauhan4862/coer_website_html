@@ -1,7 +1,7 @@
-.iar-currentOpenings {
+.coer-currentOpenings {
     padding: 80px 0;
 }
-.iar-currentOpenings .career-item {
+.coer-currentOpenings .career-item {
     padding: 40px;
     text-align: left;
     background: #ffffff;
@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-.iar-currentOpenings .career-comingSoon-col .career-item {
+.coer-currentOpenings .career-comingSoon-col .career-item {
     background: #fff;
 }
 .career-comingSoon-col {}
@@ -36,11 +36,11 @@
     right: 0;
     border-radius: 0;
 }
-.iar-currentOpenings .career-yellow-col .career-item {
+.coer-currentOpenings .career-yellow-col .career-item {
     background: #f4bf00;
     border: 1px solid #f4bf00;
 }
-.iar-currentOpenings .career-item .careers-images {}
+.coer-currentOpenings .career-item .careers-images {}
 .career-yellow-col .career-item {
     padding: 0;
 }
@@ -49,18 +49,18 @@
     padding: 40px;
     margin: 8px;
 }
-.iar-currentOpenings .career-item .careers-images .careers-icon {
+.coer-currentOpenings .career-item .careers-images .careers-icon {
     padding-bottom: 20px;
     text-align: center;
 }
 
-.iar-currentOpenings .career-item .careers-images .careers-text {
+.coer-currentOpenings .career-item .careers-images .careers-text {
     text-align: center;
 }
 
-.iar-currentOpenings .career-item .careers-images .careers-text .careers-title {}
+.coer-currentOpenings .career-item .careers-images .careers-text .careers-title {}
 
-.iar-currentOpenings .career-item .careers-images .careers-text .careers-title .title {
+.coer-currentOpenings .career-item .careers-images .careers-text .careers-title .title {
     font-size: 1.5em;
     line-height: 1.2;
     font-weight: 700;
@@ -69,7 +69,7 @@
     margin: 0;
 }
 
-.iar-currentOpenings .career-item .careers-images .careers-text .text {
+.coer-currentOpenings .career-item .careers-images .careers-text .text {
     font-size: 16px;
     line-height: 27px;
     font-weight: 400;
@@ -78,10 +78,10 @@
     padding-bottom: 10px;
 }
 
-.iar-currentOpenings .applyNow {
+.coer-currentOpenings .applyNow {
     margin-top: 15px;
 }
-.iar-currentOpenings .applyNow .applyNowBtn {
+.coer-currentOpenings .applyNow .applyNowBtn {
     display: inline-block;
     line-height: 1;
     font-size: 16px;
@@ -95,30 +95,30 @@
     padding: 18px 40px 18px 40px;
     font-family: 'proxima_novabold';
 }
-.iar-currentOpenings .applyNow .applyNowBtn:hover {
+.coer-currentOpenings .applyNow .applyNowBtn:hover {
     background-color: var(--primary-yellow);
     color: var(--primary-white);
 }
-.iar-currentOpenings .career-item:hover .applyNow .applyNowBtn{
+.coer-currentOpenings .career-item:hover .applyNow .applyNowBtn{
     background-color: var(--primary-yellow);
     color: var(--primary-white);
 }
-.iar-currentOpenings .career-yellow-col .applyNow .applyNowBtn:hover{
+.coer-currentOpenings .career-yellow-col .applyNow .applyNowBtn:hover{
     background-color: var(--primary-white);
     color: var(--primary-blue);
 }
-.iar-currentOpenings .career-yellow-col .career-item:hover .applyNow .applyNowBtn{
+.coer-currentOpenings .career-yellow-col .career-item:hover .applyNow .applyNowBtn{
     background-color: var(--primary-white);
     color: var(--primary-blue);
 }
-.iar-currentOpenings .career-item .careers-images .careers-icon svg {
+.coer-currentOpenings .career-item .careers-images .careers-icon svg {
     width: 58px;
     height: 58px;
 }
-.iar-currentOpenings .career-item{
+.coer-currentOpenings .career-item{
     margin-bottom: 25px;
 }
-.iar-currentOpenings .career-item .careers-images {
+.coer-currentOpenings .career-item .careers-images {
     min-height: 340px;
     height: 100%;
 }
@@ -156,7 +156,7 @@
     .career-yellow-col .career-item .careers-images {
         padding: 15px;
     }
-     .iar-currentOpenings .career-item .careers-images {
+     .coer-currentOpenings .career-item .careers-images {
 		min-height: 340px;
 		height: 100%;
 	}
@@ -172,10 +172,10 @@
     .career-yellow-col .career-item .careers-images {
         padding: 15px;
     }
-    .iar-currentOpenings .career-item .careers-images .careers-text .careers-title .title{
+    .coer-currentOpenings .career-item .careers-images .careers-text .careers-title .title{
         font-size: 1.2em;
     }
-	.iar-currentOpenings .career-item .careers-images {
+	.coer-currentOpenings .career-item .careers-images {
 		min-height: 340px;
 		height: 100%;
 	}
@@ -185,10 +185,10 @@
     .career-yellow-col .career-item .careers-images {
         padding: 15px;
     }
-    .iar-currentOpenings .career-item .careers-images .careers-text .careers-title .title{
+    .coer-currentOpenings .career-item .careers-images .careers-text .careers-title .title{
         font-size: 1.4em;
     }
-	.iar-currentOpenings .career-item .careers-images {
+	.coer-currentOpenings .career-item .careers-images {
 		min-height: 100%;
 		height: 100%;
 	}
@@ -198,7 +198,7 @@
     .career-yellow-col .career-item .careers-images {
         padding: 20px;
     }
-	.iar-currentOpenings .career-item .careers-images {
+	.coer-currentOpenings .career-item .careers-images {
 		min-height: 100%;
 		height: 100%;
 	}
@@ -208,7 +208,7 @@
     .career-yellow-col .career-item .careers-images {
         padding: 20px;
     }
-	.iar-currentOpenings .career-item .careers-images {
+	.coer-currentOpenings .career-item .careers-images {
 		min-height: 100%;
 		height: 100%;
 	}
